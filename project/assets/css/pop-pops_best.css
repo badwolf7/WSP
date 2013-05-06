@@ -35,7 +35,7 @@ Punch(Red)					#d32f27
 body{
 	background-color: #fbf9f3;
 }
-#wrapper{
+.wrapper{
 	width: 960px;
 	margin: 0 auto;
 }
