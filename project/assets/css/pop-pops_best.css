@@ -18,6 +18,9 @@ Punch(Red)					#d32f27
 =====Fonts=====
 
 "Open Sans Condensed", sans-serif;
+"Sue Ellen Francisco", cursive;
+"Homemade Apple", cursive;
+"Swanky and Moo Moo", cursive;
 
 */
 
@@ -33,7 +36,9 @@ Punch(Red)					#d32f27
 /*-----General-----*/
 
 body{
-	background-color: #fbf9f3;
+	width: 1024px;
+	margin: 0 auto;
+	background: url(../images/extra_clean_paper_@2X.jpg);
 }
 .wrapper{
 	width: 960px;
@@ -50,15 +55,13 @@ h1{
 	height: 223px;
 	background: url(../images/header.jpg);
 	text-indent: -9999px;
+	margin: 0;
+	box-shadow: 0 5px 10px #282828;
 }
 #ppb img{
 	position: absolute;
 	left: 15px;
 	top: 20px;
-}
-header #img{
-	width: 940px;
-	margin: 0 10px;
 }
 
 /*-----Nav-----*/
@@ -72,39 +75,85 @@ nav ul li a{
 	font: 28px "Open Sans Condensed", sans-serif;
 	color: #526d45;
 }
+nav ul li a:hover{
+	text-decoration: none;
+	font: 28px "Open Sans Condensed", sans-serif;
+	color: #d32f27;
+}
 #navl{
 	float: left;
 	overflow: hidden;
-	margin: -88px 0 0 5px;
+	margin: -54px 0 0 5px;
 }
 #navl li{
 	float: left;
+	margin: 0 27px;
 }
 #navr{
 	float: right;
 	overflow: hidden;
-	margin: -88px 5px 0 0;
+	margin: -54px 5px 0 0;
 }
 #navr li{
 	float: left;
+	margin: 0 22px;
 }
 
-/*-----Body-----*/
+/*-----Content-----*/
+/*-----Home-----*/
+
+#img{
+	width: 940px;
+	margin: 0 10px;
+}
+#letter{
+	width: 430px;
+	margin: 3 25px;
+	padding: 12px 8px;
+	background: url(../images/page.png);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+}
+#letterbod{
+	width: 400px;
+	margin: 0 auto;
+	font: 17px "Swanky and Moo Moo", cursive;
+}
+#letterbod #sign{
+	text-align: right;
+	font: 22px "Homemade Apple", cursive;
+}
+
+/*-----News-----*/
 
 
 
 /*-----Footer-----*/
 
+footer{
+	overflow: visible;
+	clear: both;
+	margin-top: 50px;
+}
 footer ul{
+	width: 960px;
+	height: 50px;
 	list-style: none;
 	padding: 0;
 	float: right;
 	overflow: hidden;
+	margin: -35px 0 0;
+	background: url(../images/footer.jpg);
 }
 footer ul li{
-	float: left;
+	float: right;
+	margin: 0 3px;
+	font: 17px "Open Sans Condensed", sans-serif;
 }
 footer ul li a{
 	text-decoration: none;
-	font-family: "Open Sans Condensed", sans-serif;
+	color: #526d45;
+}
+footer ul li a:hover{
+	color: #d32f27;
 }
