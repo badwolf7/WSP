@@ -104,7 +104,10 @@ nav ul li a:hover{
 
 #img{
 	width: 940px;
-	margin: 0 10px;
+	height: 756px;
+	margin: 0 auto 10px;
+	background: url(../images/image.jpg);
+	background-repeat: no-repeat;
 }
 #letter{
 	width: 430px;
@@ -113,6 +116,25 @@ nav ul li a:hover{
 	background: url(../images/page.png);
 	background-repeat: no-repeat;
 	background-position: left bottom;
+	z-index: 10px;
+}
+#pin_left{
+	width: 71px;
+	height: 60px;
+	background-image: url(../images/push_pin_left.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	float: left;
+	margin: -40px 0 0 -42px;
+}
+#pin_right{
+	width: 72px;
+	height: 60px;
+	background-image: url(../images/push_pin_right.png);
+	background-repeat: no-repeat;
+	background-position: right top;
+	float: right;
+	margin: -40px -50px 0 0;
 }
 #letterbod{
 	width: 400px;
