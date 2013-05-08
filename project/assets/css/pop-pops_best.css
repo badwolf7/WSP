@@ -166,6 +166,7 @@ footer ul{
 	overflow: hidden;
 	margin: -35px 0 0;
 	background: url(../images/footer.jpg);
+	box-shadow: 0 -2.5px 10px #282828;
 }
 footer ul li{
 	float: right;
