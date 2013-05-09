@@ -119,12 +119,11 @@ nav ul li a:hover{
 }
 #letter{
 	width: 430px;
-	margin: 3 25px;
+	margin: 3px 25px;
 	padding: 12px 8px;
 	background: url(../images/page.png);
 	background-repeat: no-repeat;
 	background-position: left bottom;
-	z-index: 10px;
 }
 #pin_left{
 	width: 47px;
@@ -214,6 +213,47 @@ nav ul li a:hover{
 	background: url(../images/ncp_bottom.jpg);
 	background-repeat: no-repeat;
 }
+
+/*-----Products-----*/
+
+
+
+/*-----Resellers-----*/
+
+#resellers_map{
+	float: right;
+}
+.resellers_img{
+	display: block;
+	width: 280px;
+	background: #232323;
+}
+#resellers section img{
+	margin: 25px 15px;
+	float: left;
+	clear: left;
+}
+.resellers_info{
+	width: 320px;
+	float: left;
+	margin: 3px 0 0 8px;
+}
+#Old_World_Food .resellers_info{
+	width: 320px;
+	float: left;
+	margin: 3px 0 0 75px;
+}
+#Steves_Meats .resellers_img{
+	margin-bottom: 20px;
+}
+
+/*-----Reviews-----*/
+
+
+
+/*-----Contact-----*/
+
+
 
 /*-----Footer-----*/
 
