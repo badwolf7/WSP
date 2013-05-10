@@ -21,6 +21,7 @@ Punch(Red)					#d32f27
 "Sue Ellen Francisco", cursive;
 "Homemade Apple", cursive;
 "Swanky and Moo Moo", cursive;
+"Sintony", sans-serif;
 
 */
 
@@ -146,7 +147,7 @@ nav ul li a:hover{
 #letterbod{
 	width: 400px;
 	margin: 0 auto;
-	font: 17px "Swanky and Moo Moo", cursive;
+	font: 20px "Swanky and Moo Moo", cursive;
 }
 #letterbod #sign{
 	text-align: right;
@@ -253,7 +254,51 @@ nav ul li a:hover{
 
 /*-----Contact-----*/
 
-
+#contact_form{
+	overflow: hidden;
+}
+#contact_form h2{
+	margin: 18px 0 0 90px;
+	font: 25px helvetica, sans-serif;
+}
+#contact_form p{
+	margin: 9px 0 18px 100px;
+	font: 13px helvetica, sans-serif;
+}
+#contact_form label{
+	display: block;
+	width: 250px;
+	text-align: right;
+}
+#contact_form input, #contact_form select, #contact_form textarea{
+	float: left;
+	margin: -21px 0 14px 265px;
+}
+#contact_form #fname, #contact_form #lname, #contact_form #address1, #contact_form #city, #contact_form #tel, #contact_form #email, #contact_form #message{
+	width: 200px;
+}
+#contact_form #address2{
+	width: 200px;
+	margin-top: -14px;
+}
+#contact_form .req{
+	font: 17px "Sintony", sans-serif;
+	color: #d32f27;
+	margin-left: 8px;
+}
+#contact_form #reset{
+	display: block;
+	width: 80px;
+	margin: 40px 0 0 325px;
+	font: 11px helvetica, sans-serif;
+}
+#contact_form #submit{
+	display: block;
+	width: 90px;
+	height: 30px;
+	margin: -20px 0 0 380px;
+	border-radius: 8px;
+}
 
 /*-----Footer-----*/
 

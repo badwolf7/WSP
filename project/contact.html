@@ -6,6 +6,13 @@
 		<title>Pop-Pop's Best - Contact</title>
 		<link rel="stylesheet" href="assets/css/pop-pops_best.css"/>
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+		<script>
+			function formReset ()
+			{
+				document.getElementById("contact_form").reset();
+			}
+		</script>
+		<link href='http://fonts.googleapis.com/css?family=Sintony' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
 		<div class="wrapper">
@@ -24,6 +31,101 @@
 					</ul>
 				</nav>
 			</header>
+			<form id="contact_form" action="#" method="get">
+				<h2>Contact</h2>
+				<p>We love to hear from our customers. Send us a message below.</p>
+				<div>
+					<label for="fname">First Name:</label>
+					<input id="fname" type="text" name="First Name" placeholder="John" autofocus="autofocus" required="required"><span class="req">*</span>
+				</div>
+				<div>
+					<label for="lname">Last Name:</label>
+					<input id="lname" type="text" name="Last Name" placeholder="Smith" required="required"><span class="req">*</span>
+				</div>
+				<div>
+					<label for="address1">Address:</label>
+					<input id="address1" type="text" name="Address" placeholder="123 Main St." required="required"><span class="req">*</span><br/>
+					<input id="address2" type="text" name="Address" placeholder="Address Line 2">
+				</div>
+				<div>
+					<label for="city">City:</label>
+					<input id="city" type="text" name="City" placeholder="Anywhere" required="required"><span class="req">*</span>
+				</div>
+				<div>
+					<label for="state">State:</label>
+					<select id="state" name="State" required="required"><span class="req">*</span>
+						<option value="choose" selected="selected">Pick a State</option>
+						<option value="Alabama">AL</option>
+						<option value="Alaska">AK</option>
+						<option value="Arizona">AZ</option>
+						<option value="Arkansas">AR</option>
+						<option value="California">CA</option>
+						<option value="Colorado">CO</option>
+						<option value="Connecticut">CT</option>
+						<option value="Delaware">DE</option>
+						<option value="Florida">FL</option>
+						<option value="Georgia">GA</option>
+						<option value="Hawaii">HI</option>
+						<option value="Idaho">ID</option>
+						<option value="Illinois">IL</option>
+						<option value="Indiana">IN</option>
+						<option value="Iowa">IA</option>
+						<option value="Kansas">KS</option>
+						<option value="Kentucky">KY</option>
+						<option value="Louisiana">LA</option>
+						<option value="Maine">ME</option>
+						<option value="Maryland">MD</option>
+						<option value="Massachusetts">MA</option>
+						<option value="Michigan">MI</option>
+						<option value="Minnesota">MN</option>
+						<option value="Mississippi">MS</option>
+						<option value="Missouri">MO</option>
+						<option value="Montana">MT</option>
+						<option value="Nebraska">NE</option>
+						<option value="Nevada">NV</option>
+						<option value="New Hampshire">NH</option>
+						<option value="New Jersey">NJ</option>
+						<option value="New Mexico">NM</option>
+						<option value="New York">NY</option>
+						<option value="North Carolina">NC</option>
+						<option value="North Dakota">ND</option>
+						<option value="Ohio">OH</option>
+						<option value="Oklahoma">OK</option>
+						<option value="Oregon">OR</option>
+						<option value="Pennsylvania">PA</option>
+						<option value="Rhode Island">RI</option>
+						<option value="South Carolina">SC</option>
+						<option value="South Dakota">SD</option>
+						<option value="Tennessee">TN</option>
+						<option value="Texas">TX</option>
+						<option value="Utah">UT</option>
+						<option value="Vermont">VT</option>
+						<option value="Virginia">VA</option>
+						<option value="Washington">WA</option>
+						<option value="West Virginia">WV</option>
+						<option value="Wisconsin">WI</option>
+						<option value="Wyoming">WY</option>
+					</select>
+				</div>
+				<div>
+					<label for="tel">Telephone:</label>
+					<input id="tel" type="tel" name="Telephone" placeholder="123-456-7890">
+				</div>
+				<div>
+					<label for="email">Email:</label>
+					<input id="email" type="email" name="Email" placeholder="ex.  name@web.com" required="required"><span class="req">*</span>
+				</div>
+				<div>
+					<label for="message">Message:</label>
+					<textarea id="message" type="text" name="Message" placeholder="Your Message" required="required"></textarea><span class="req">*</span>
+				</div>
+				<div>
+					<a id="reset" href="#" onClick="formReset()" value="Reset">Reset</a>
+				</div>
+				<div>
+					<input id="submit" type="submit" value="Submit">
+				</div>
+			</form>
 			<footer>
 				<ul id="botnav">
 					<li><a href="index.html">Home</a></li>
