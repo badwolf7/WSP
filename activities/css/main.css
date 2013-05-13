@@ -1,0 +1,123 @@
+#wrapper{
+	width: 960px;
+	margin: 0 auto;
+	font-family: helvetica, sans-serif;
+}
+
+/*-----Header-----*/
+
+header h1{
+	text-align: center;
+	margin-bottom: 10px;
+}
+header h2{
+	text-align: center;
+	margin: 10px 0;
+}
+header p{
+	font-size: 11px;
+	text-align: center;
+	margin: 8px 0;
+}
+header p a{
+	text-decoration: none;
+	color: #d32f27;
+}
+
+/*-----Site Intent-----*/
+
+
+
+/*-----Competitive Analysis-----*/
+
+#competitive_analysis{
+	overflow: hidden;
+}
+#competitive_analysis h2{
+	margin-top: 50px;
+}
+#competitive_analysis h3{
+	font-size: 21px;
+	margin: 40px 0 0 30px;
+}
+#competitive_analysis h4{
+	font-size: 18px;
+}
+#competitive_analysis p, #competitive_analysis li{
+	font-size: 13px;
+}
+#competitive_analysis p a{
+	text-decoration: none;
+	color: #d32f27;
+}
+#competitive_analysis ol{
+	padding: 0;
+}
+#wish_bone .site{
+	float: left;
+	margin: -20px 0 0 150px;
+}
+#hidden_valley .site{
+	float: left;
+	margin: -20px 0 0 250px;
+}
+#kens_foods .site{
+	float: left;
+	margin: -20px 0 0 165px;
+}
+#hidden_valley p span{
+	margin-left: 46px;
+}
+.alexa_rank{
+	width:300px;
+	margin: 10px;
+	float: left;
+}
+.demographics{
+	width:300px;
+	margin: 10px;
+	float: left;
+}
+.queries{
+	width:300px;
+	margin: 10px;
+	float: left;
+}
+
+/*-----Targeted Audience-----*/
+
+#targeted_audience{
+	overflow: hidden;
+}
+#targeted_audience h2{
+	margin-top: 50px;
+}
+#targeted_audience h3{
+	margin-top: 35px;
+}
+#targeted_audience p, #targeted_audience li{
+	font-size: 13px;
+}
+#targeted_audience ul{
+	padding: 0;
+}
+#targeted_audience .characteristics{
+	width: 350px;
+	float: left;
+}
+#targeted_audience .influencers{
+	width: 350px;
+	float: left;
+}
+#targeted_audience .scenarios{
+	clear: both;
+	overflow: hidden;
+}
+.scenarios .goal{
+	width: 250px;
+	float: left;
+}
+.scenarios .method{
+	width: 600px;
+	float: left;
+}

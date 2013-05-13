@@ -23,7 +23,7 @@ Punch(Red)					#d32f27
 "Swanky and Moo Moo", cursive;
 "Sintony", sans-serif;
 
-*/
+=====@font-face=====*/
 
 @font-face {
     font-family: "mrearlbt_font";
@@ -262,8 +262,17 @@ nav ul li a:hover{
 	font: 25px helvetica, sans-serif;
 }
 #contact_form p{
-	margin: 9px 0 18px 100px;
+	margin: 9px 0 10px 100px;
 	font: 13px helvetica, sans-serif;
+}
+#contact_form #reqmes{
+	margin: 0 0 8px 418px;
+	font: 10px helvetica, sans-serif;
+	color: #d32f27;
+}
+#contact_form .reqpar{
+	font: 17px "Sintony", sans-serif;
+	color: #d32f27;
 }
 #contact_form label{
 	display: block;
@@ -274,17 +283,21 @@ nav ul li a:hover{
 	float: left;
 	margin: -21px 0 14px 265px;
 }
-#contact_form #fname, #contact_form #lname, #contact_form #address1, #contact_form #city, #contact_form #tel, #contact_form #email, #contact_form #message{
+#contact_form #fname, #contact_form #lname, #contact_form #address1, #contact_form #city, #contact_form #tel, #contact_form #email{
 	width: 200px;
 }
 #contact_form #address2{
 	width: 200px;
 	margin-top: -14px;
 }
+#contact_form #message{
+	width: 203px;
+}
 #contact_form .req{
 	font: 17px "Sintony", sans-serif;
 	color: #d32f27;
-	margin-left: 8px;
+	float: left;
+	margin: -25px 0 0 4px;
 }
 #contact_form #reset{
 	display: block;
