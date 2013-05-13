@@ -107,6 +107,15 @@ nav ul li a:hover{
 	float: left;
 	margin: 0 22px;
 }
+#nav_current{
+	border-bottom: 3px solid #beb295;
+}
+#nav_current a{
+	color: #d32f27;
+}
+#nav_current a:hover{
+	color: #c2b69a;
+}
 
 /*-----Content-----*/
 /*-----Home-----*/
@@ -168,6 +177,7 @@ nav ul li a:hover{
 	margin: 0 auto;
 	background: url(../images/ncp_body.jpg);
 	background-repeat: repeat-y;
+	overflow: hidden;
 }
 #ncp_body h2{
 	margin: 0 8px 18px;
@@ -203,8 +213,42 @@ nav ul li a:hover{
 #ncp_article p{
 	margin-bottom: 0;
 }
+#ncp_article #pquote1{
+	float: left;
+	width: 238px;
+	background: rgba(243,243,236,.6);
+	padding: 3px;
+	margin: 3px 8px 3px 2px;
+	overflow: hidden;
+	box-shadow: 0 0 5px rgba(243,243,236,.6);
+	quotes: "\201C" "\201D";
+}
+#ncp_article #pquote1:before{
+	content: open-quote;
+	font-size: 50px;
+	color: #beb295;
+	float: left;
+	margin: -8px 0 0 0;
+}
+/*#ncp_article #pquote1:after{
+	content: close-quote;
+	font-size: 50px;
+	color: #beb295;
+	float: right;
+	margin: -28px -78px 0 0;
+}*/
+#ncp_article #pquote1 p{
+	margin: 0 0 0 20px;
+	padding: 0;
+	color: #B7806C;
+}
+#ncp_article #pquote1 #quotee{
+	float: right;
+	margin-top: 8px;
+	font-weight: bold;
+}
 #ncp_src{
-	margin: 25px 25px 0 0;
+	margin: 20px 25px 0 0;
 	float: right;
 }
 #ncp_bottom{
