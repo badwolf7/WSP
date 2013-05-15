@@ -300,17 +300,20 @@ nav ul li a:hover{
 
 #contact_form{
 	overflow: hidden;
+	width: 500px;
+	margin: 0 auto;
+	background: rgba(243,243,236,.75);
 }
 #contact_form h2{
-	margin: 18px 0 0 90px;
+	margin: 18px 0 0 0;
 	font: 25px helvetica, sans-serif;
 }
 #contact_form p{
-	margin: 9px 0 10px 100px;
+	margin: 9px 0 10px 10px;
 	font: 13px helvetica, sans-serif;
 }
 #contact_form #reqmes{
-	margin: 0 0 8px 418px;
+	margin: 0 0 8px 318px;
 	font: 10px helvetica, sans-serif;
 	color: #d32f27;
 }
@@ -320,12 +323,12 @@ nav ul li a:hover{
 }
 #contact_form label{
 	display: block;
-	width: 250px;
+	width: 140px;
 	text-align: right;
 }
 #contact_form input, #contact_form select, #contact_form textarea{
 	float: left;
-	margin: -21px 0 14px 265px;
+	margin: -21px 0 14px 155px;
 }
 #contact_form #fname, #contact_form #lname, #contact_form #address1, #contact_form #city, #contact_form #tel, #contact_form #email{
 	width: 200px;
@@ -346,14 +349,14 @@ nav ul li a:hover{
 #contact_form #reset{
 	display: block;
 	width: 80px;
-	margin: 40px 0 0 325px;
+	margin: 40px 0 0 245px;
 	font: 11px helvetica, sans-serif;
 }
 #contact_form #submit{
 	display: block;
 	width: 90px;
 	height: 30px;
-	margin: -20px 0 0 380px;
+	margin: -20px 0 0 320px;
 	border-radius: 8px;
 }
 
