@@ -32,14 +32,6 @@ header h1{
 	float: left;
 	margin-left: 8px;
 }
-.style p{
-	float: left;
-	margin: 24px 0 0 8px;
-}
-.style p a{
-	text-decoration: none;
-	font: 14px "Open Sans Condensed", sans-serif;
-}
 .style img{
 	clear: both;
 	width: 720px;
