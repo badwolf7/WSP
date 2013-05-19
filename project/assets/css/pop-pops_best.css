@@ -43,14 +43,21 @@ Punch(Red)					#d32f27
 
 /*-----General-----*/
 
+html{
+	height: 100%;
+}
 body{
 	width: 1024px;
 	margin: 0 auto;
 	background: url(../images/extra_clean_paper_@2X.jpg);
+	height: 100%;
 }
 .wrapper{
 	width: 960px;
-	margin: 0 auto;
+	margin: 0 auto -100px;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
 }
 
 /*-----Header-----*/
@@ -268,7 +275,7 @@ nav ul li a:hover{
 	background-repeat: no-repeat;
 }
 #reseller_ad{
-	width: 300px;
+	width: 290px;
 	float: right;
 	margin: -1500px 10px 0 0;
 	background: #c2b69a;
@@ -299,7 +306,60 @@ nav ul li a:hover{
 
 /*-----Products-----*/
 
-
+#products_content h2{
+	margin-left: 10px;
+}
+.products{
+	width: 940px;
+	float: left;
+	overflow: hidden;
+	margin: 10px;
+}
+.products img{
+	float: left;
+}
+.products h3{
+	float: left;
+	margin: 5px 0 8px 10px;
+}
+.products .ingredients{
+	float: left;
+	margin: 30px 0 0 -167px;
+}
+.modal_outer{
+	display: none;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 9999;
+	background: gray;
+	background: rgba(0,0,0,.75);
+	filter: alpha(opacity=75);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
+}
+.modal_outer:target{
+	display: block;
+}
+#ingredients_modal{
+	background: url(../images/extra_clean_paper_@2X.jpg);
+	width: 450px;
+	padding: 20px;
+	margin: 90px auto 40px;
+	border: 2px solid #333;
+	position: relative;
+	top: 100px;
+	left: 0;
+	z-index: 6000;
+	visibility: visible;
+	display: block;
+}
+.products .description{
+	float: left;
+	width: 730px;
+	margin: -140px 0 0 210px;
+}
 
 /*-----Resellers-----*/
 
@@ -407,10 +467,15 @@ nav ul li a:hover{
 
 /*-----Footer-----*/
 
+.push{
+	height: 50px;
+}
 footer{
-	overflow: visible;
+	overflow: hidden;
 	clear: both;
 	margin-top: 50px;
+	width: 960px;
+	margin: 50px auto 0;
 }
 footer ul{
 	width: 960px;
@@ -419,7 +484,7 @@ footer ul{
 	padding: 0;
 	float: right;
 	overflow: hidden;
-	margin: -35px 0 0;
+	margin: 0;
 	background: url(../images/footer.jpg);
 	box-shadow: 0 -2.5px 10px #282828;
 }
