@@ -6,6 +6,8 @@
 		<title>Pop-Pop's Best - Reviews</title>
 		<link rel="stylesheet" href="assets/css/pop-pops_best.css"/>
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+		<script src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+		<script src="assets/js/star-rating.jquery.js"></script>
 	</head>
 	<body>
 		<div class="wrapper">
@@ -24,6 +26,41 @@
 					</ul>
 				</nav>
 			</header>
+			<div class="reviews">
+			</div>
+			<div class="review_form">
+				<form id="review_form" action="#" method="post">
+					<p id="reqmes"><span class="reqpar">*</span> Required</p>
+					<div>
+						<label class="revlabel" for="fname">Name:</label>
+						<input class="revinput" id="name" type="text" name="Name" placeholder="John Smith" autofocus="autofocus" required="required"><span class="req">*</span>
+					</div>
+					<div>
+						<label class="revlabel" for="email">Email:</label>
+						<input class="revinput" id="email" type="email" name="Email" placeholder="ex.  name@web.com" required="required"><span class="req">*</span>
+					</div>
+					<div>
+						<label class="revlabel" for="message">Message:</label>
+						<textarea class="revinput" id="message" type="text" name="Message" placeholder="Your Message" required="required"></textarea><span class="req">*</span>
+					</div>
+					<div>
+						<label class="revlabel" for="rating_3">Rating:</label>
+						<div class="stars">
+							<label><input type="radio" name="rating" value="1" id="rating_1"><span>1 Star</span></label>
+							<label><input type="radio" name="rating" value="2" id="rating_2"><span>2 Stars</span></label>
+							<label><input type="radio" name="rating" value="3" id="rating_3"><span>3 Stars</span></label>
+							<label><input type="radio" name="rating" value="4" id="rating_4" checked="checked"><span>4 Stars</span></label>
+							<label><input type="radio" name="rating" value="5" id="rating_5"><span>5 Stars</span></label>
+						</div>
+					</div>
+					<div>
+						<input id="post" type="submit" value="Post">
+					</div>
+				</form>
+				<script>
+				$(document).ready(function(){$('.stars').starRating();});
+				</script>
+			</div>
 			<div class="push"></div>
 		</div>
 		<footer>
