@@ -341,6 +341,7 @@ nav ul li a:hover{
 }
 .modal_outer:target{
 	display: block;
+	
 }
 #ingredients_modal{
 	background: url(../images/extra_clean_paper_@2X.jpg);
