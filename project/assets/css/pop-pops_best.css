@@ -58,6 +58,7 @@ body{
 	min-height: 100%;
 	height: auto !important;
 	height: 100%;
+	font-family: helvetica, sans-serif;
 }
 
 /*-----Header-----*/
@@ -128,9 +129,9 @@ nav ul li a:hover{
 
 #img{
 	width: 940px;
-	height: 756px;
+	height: 400px;
 	margin: 0 auto 10px;
-	background: url(../images/image.jpg);
+	background: url(../images/ppb_cta.jpg);
 	background-repeat: no-repeat;
 }
 #letter{
@@ -324,8 +325,17 @@ nav ul li a:hover{
 }
 .products .ingredients{
 	float: left;
-	margin: 30px 0 0 -167px;
+	margin: 27px 0 0 -167px;
+	font: bold 19px "Open Sans Condensed", sans-serif;
 }
+.products .ingredients a{
+	text-decoration: none;
+	color: #526d45;
+}
+.products .ingredients a:hover{
+	color: #d32f27;
+}
+
 .modal_outer{
 	display: none;
 	position: absolute;
@@ -398,7 +408,7 @@ nav ul li a:hover{
 }
 #review_form{
 	overflow: hidden;
-	width: 500px;
+	width: 450px;
 	margin: 0 0 0 50px;
 	background: rgba(243,243,236,.5);
 }
@@ -443,6 +453,33 @@ nav ul li a:hover{
 	clear: both;
 	margin: -53px 0 0 155px;
 }
+.reviews{
+	overflow: scroll;
+	width: 450px;
+	height: 475px;
+	float: right;
+	margin: -215px 10px 0 0;
+}
+.reviews ul{
+	list-style: none;
+	padding: 0;
+	overflow: hidden;
+}
+.reviews .name{
+	font: bolder 18px helvetica, sans-serif;
+	float: left;
+}
+.reviews .date{
+	font: lighter 13px helvetica, sans-serif;
+	float: left;
+	margin: 2px 0 0 8px;
+}
+.reviews .comment{
+	font-size: 15px;
+	clear: both;
+	margin: 5px 5px 5px 10px;
+}
+
 
 /*-----Contact-----*/
 
