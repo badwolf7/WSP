@@ -346,8 +346,6 @@ nav ul li a:hover{
 	z-index: 9999;
 	background: gray;
 	background: rgba(0,0,0,.75);
-	filter: alpha(opacity=75);
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
 }
 .modal_outer:target{
 	display: block;

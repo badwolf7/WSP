@@ -55,7 +55,7 @@
 				<div>
 					<label for="state">State:</label>
 					<select id="state" name="State" required="required">
-						<option value="choose" selected="selected">Pick a State</option>
+						<option value="" selected="selected">Pick a State</option>
 						<option value="AL">Alabama</option>
 						<option value="AK">Alaska</option>
 						<option value="AZ">Arizona</option>
@@ -119,10 +119,10 @@
 				</div>
 				<div>
 					<label for="message">Message:</label>
-					<textarea id="message" type="text" name="Message" placeholder="Your Message" required="required"></textarea><span class="req">*</span>
+					<textarea id="message" name="Message" placeholder="Your Message" required="required"></textarea><span class="req">*</span>
 				</div>
 				<div>
-					<a id="reset" href="#" onClick="formReset()" value="Reset">Reset</a>
+					<a id="reset" href="#" onClick="formReset()">Reset</a>
 				</div>
 				<div>
 					<input id="submit" type="submit" value="Submit">
