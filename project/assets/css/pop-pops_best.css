@@ -209,9 +209,24 @@ nav ul li a:hover{
 	color: #d32f27;
 	font: 18px "franklin_gothic_book", helvetica, sans-serif;
 }
-#ncp_body img{
+#ncp_body figure{
 	float: right;
 	margin: 8px;
+}
+#ncp_body figcaption{
+	font: lighter 11px "franklin_gothic_book", helvetica, sans-serif;
+	margin-top: 3px;
+	text-align: right;
+}
+#ncp_body figcaption a{
+	text-decoration: none;
+	color: #526d45;
+	font: lighter 11px "franklin_gothic_book", helvetica, sans-serif;
+}
+#ncp_body figcaption a:hover{
+	text-decoration: none;
+	color: #d32f27;
+	font: lighter 11px "franklin_gothic_book", helvetica, sans-serif;
 }
 #ncp_article{
 	margin: 0 8px;
@@ -289,12 +304,12 @@ nav ul li a:hover{
 #reseller_ad h2 a{
 	text-decoration: none;
 	color: #526d45;
-	font: 28px "franklin_gothic_book", helvetica, sans-serif;
+	font: bolder 28px "franklin_gothic_book", helvetica, sans-serif;
 }
 #reseller_ad h2 a:hover{
 	text-decoration: none;
 	color: #d32f27;
-	font: 28px "franklin_gothic_book", helvetica, sans-serif;
+	font: bolder 28px "franklin_gothic_book", helvetica, sans-serif;
 }
 #reseller_ad .resellers_img{
 	float: left;
