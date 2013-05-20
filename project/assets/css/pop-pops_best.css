@@ -141,6 +141,7 @@ nav ul li a:hover{
 	background: url(../images/page.png);
 	background-repeat: no-repeat;
 	background-position: left bottom;
+	float: left;
 }
 #pin_left{
 	width: 47px;
@@ -168,6 +169,15 @@ nav ul li a:hover{
 #letterbod #sign{
 	text-align: right;
 	font: 22px "Homemade Apple", cursive;
+}
+.fb_comments{
+	width: 450px;
+	height: 530px;
+	overflow: hidden;
+	float: right;
+	margin: 8px 10px 0 0;
+	background: url(../images/fb_comments.jpg);
+	background-repeat: no-repeat;
 }
 
 /*-----News-----*/
@@ -364,7 +374,6 @@ nav ul li a:hover{
 }
 .modal_outer:target{
 	display: block;
-
 }
 #ingredients_modal{
 	background: url(../images/extra_clean_paper_@2X.jpg);
