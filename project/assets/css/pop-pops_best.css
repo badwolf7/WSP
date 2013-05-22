@@ -47,13 +47,15 @@ html{
 	height: 100%;
 }
 body{
-	width: 1024px;
+	max-width: 1024px;
+	min-width: 320px;
+	font-size: 62.5%;
 	margin: 0 auto;
 	background: url(../images/extra_clean_paper_@2X.jpg);
 	height: 100%;
 }
 .wrapper{
-	width: 960px;
+	width: 93.75%; /*--960px--*/
 	margin: 0 auto -100px;
 	min-height: 100%;
 	height: auto !important;
@@ -67,9 +69,10 @@ header{
 	position: relative;
 }
 h1{
-	width: 960px;
+	width: 100%;
 	height: 223px;
 	background: url(../images/header.jpg);
+	background-size: 100% 223px;
 	text-indent: -9999px;
 	margin: 0;
 	box-shadow: 0 5px 10px #282828;
@@ -78,6 +81,8 @@ h1{
 	position: absolute;
 	left: 15px;
 	top: 20px;
+	width: 37.08333333%; /*--356px--*/
+	height: 56px;
 }
 
 /*-----Nav-----*/
@@ -88,12 +93,12 @@ nav ul{
 }
 nav ul li a{
 	text-decoration: none;
-	font: 28px "Open Sans Condensed", sans-serif;
+	font: 2.8em "Open Sans Condensed", sans-serif;
 	color: #526d45;
 }
 nav ul li a:hover{
 	text-decoration: none;
-	font: 28px "Open Sans Condensed", sans-serif;
+	font: 2.8em "Open Sans Condensed", sans-serif;
 	color: #d32f27;
 }
 #navl{
@@ -128,23 +133,25 @@ nav ul li a:hover{
 /*-----Home-----*/
 
 #img{
-	width: 940px;
+	width: 97.9166666667%; /*--940px--*/
 	height: 400px;
 	margin: 0 auto 10px;
 	background: url(../images/ppb_cta.jpg);
 	background-repeat: no-repeat;
+	background-size: 100% 400px;
 }
 #letter{
-	width: 430px;
+	width: 44.791666667%; /*--430px--*/
 	margin: 3px 25px;
 	padding: 12px 8px;
 	background: url(../images/page.png);
 	background-repeat: no-repeat;
 	background-position: left bottom;
+	background-size: 100% 653px;
 	float: left;
 }
 #pin_left{
-	width: 47px;
+	width: 10.93023256%; /*--47px--*/
 	height: 40px;
 	background-image: url(../images/push_pin_left.png);
 	background-repeat: no-repeat;
@@ -153,7 +160,7 @@ nav ul li a:hover{
 	margin: -30px 0 0 -28px;
 }
 #pin_right{
-	width: 48px;
+	width: 11.1627907%; /*--48px--*/
 	height: 40px;
 	background-image: url(../images/push_pin_right.png);
 	background-repeat: no-repeat;
@@ -162,16 +169,18 @@ nav ul li a:hover{
 	margin: -28px -38px 0 0;
 }
 #letterbod{
-	width: 400px;
+	width: 93.02325581%; /*--400px--*/
 	margin: 0 auto;
-	font: 20px "Swanky and Moo Moo", cursive;
+	font: 1.9em "Swanky and Moo Moo", cursive;
+	margin-bottom: 5px;
 }
 #letterbod #sign{
 	text-align: right;
-	font: 22px "Homemade Apple", cursive;
+	font: 1.4em "Homemade Apple", cursive;
+	margin-top: 5px;
 }
 .fb_comments{
-	width: 450px;
+	width: 46.875%; /*--450px--*/
 	height: 530px;
 	overflow: hidden;
 	float: right;
@@ -334,9 +343,10 @@ nav ul li a:hover{
 
 #products_content h2{
 	margin-left: 10px;
+	font-size: 2.5em;
 }
 .products{
-	width: 940px;
+	width: 97.9166666667%; /*--940px--*/
 	float: left;
 	overflow: hidden;
 	margin: 10px;
@@ -347,11 +357,12 @@ nav ul li a:hover{
 .products h3{
 	float: left;
 	margin: 5px 0 8px 10px;
+	font-size: 2em;
 }
 .products .ingredients{
 	float: left;
-	margin: 27px 0 0 -167px;
-	font: bold 19px "Open Sans Condensed", sans-serif;
+	margin: 27px 0 0 -18.08510638%; /*--170px--*/
+	font: bold 1.9em "Open Sans Condensed", sans-serif;
 }
 .products .ingredients a{
 	text-decoration: none;
@@ -377,7 +388,7 @@ nav ul li a:hover{
 }
 #ingredients_modal{
 	background: url(../images/extra_clean_paper_@2X.jpg);
-	width: 450px;
+	width: 46.875%; /*--450px--*/
 	padding: 20px;
 	margin: 90px auto 40px;
 	border: 2px solid #333;
@@ -391,7 +402,8 @@ nav ul li a:hover{
 .products .description{
 	float: left;
 	width: 730px;
-	margin: -140px 0 0 210px;
+	margin: -130px 0 0 22.55319149%; /*--212px--*/
+	font-size: 1.4em;
 }
 
 /*-----Resellers-----*/
@@ -468,7 +480,7 @@ nav ul li a:hover{
 	display: block;
 	width: 90px;
 	height: 30px;
-	margin: 0 0 0 320px;
+	margin: 30px 0 0 320px;
 	border-radius: 8px;
 }
 .review_form #review_form .stars{
