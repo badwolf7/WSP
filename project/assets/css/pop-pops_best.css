@@ -213,51 +213,61 @@ nav ul li a:hover{
 	overflow: hidden;
 	float: left;
 }
+#ncp_body h2, #ncp_body h3{
+	font-family: "franklin_gothic_medium", helvetica, sans-serif;
+}
 #ncp_body h2{
 	margin: 0 8px 2.8125%; /*--18px--*/
 	text-align: center;
-	font: bold 2.8em "franklin_gothic_medium", helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 2.8em;
 }
 #ncp_body h3{
 	margin: 0 1.25% 13px; /*--8px--*/
 	text-align: center;
-	font: 1.7em "franklin_gothic_medium", helvetica, sans-serif;
+	font-size: 1.7em;
 }
 #ncp_by{
 	margin-left: 1.25%; /*--8px--*/
 }
+#ncp_body a, #ncp_body a:hover, #ncp_body figcaption, #ncp_body figcaption a, #ncp_body figcaption a:hover, #ncp_article, #ncp_src a, #ncp_src a:hover, #reseller_ad h2 a, #reseller_ad h2 a:hover{
+	font-family: "franklin_gothic_book", helvetica, sans-serif;
+}
 #ncp_body a{
 	text-decoration: none;
 	color: #526d45;
-	font: 1.8em "franklin_gothic_book", helvetica, sans-serif;
+	font-size: 1.8em;
 }
 #ncp_body a:hover{
 	text-decoration: none;
 	color: #d32f27;
-	font: 1.8em "franklin_gothic_book", helvetica, sans-serif;
+	font-size: 1.8em;
 }
 #ncp_body figure{
 	float: right;
 	margin: 8px 1.25%; /*--8px--*/
 }
 #ncp_body figcaption{
-	font: lighter 1.1em "franklin_gothic_book", helvetica, sans-serif;
+	font-weight: lighter;
+	font-size: 1.1em;
 	margin-top: 3px;
 	text-align: right;
 }
 #ncp_body figcaption a{
 	text-decoration: none;
 	color: #526d45;
-	font: lighter 1.1em "franklin_gothic_book", helvetica, sans-serif;
+	font-weight: lighter;
+	font-size: 1.1em;
 }
 #ncp_body figcaption a:hover{
 	text-decoration: none;
 	color: #d32f27;
-	font: lighter 1.1em "franklin_gothic_book", helvetica, sans-serif;
+	font-weight: lighter;
+	font-size: 1.1em;
 }
 #ncp_article{
 	margin: 0 1.25%; /*--8px--*/
-	font: 1.5em "franklin_gothic_book", helvetica, sans-serif;
+	font-size: 1.5em;
 }
 #ncp_article p{
 	margin-bottom: 0;
@@ -303,12 +313,12 @@ nav ul li a:hover{
 #ncp_src a{
 	text-decoration: none;
 	color: #526d45;
-	font: 1.8em "franklin_gothic_book", helvetica, sans-serif;
+	font-size: 1.8em;
 }
 #ncp_src a:hover{
 	text-decoration: none;
 	color: #d32f27;
-	font: 1.8em "franklin_gothic_book", helvetica, sans-serif;
+	font-size: 1.8em;
 }
 #ncp_bottom{
 	width: 66.6666666667%; /*--640px--*/
@@ -336,12 +346,14 @@ nav ul li a:hover{
 #reseller_ad h2 a{
 	text-decoration: none;
 	color: #526d45;
-	font: bolder 2em "franklin_gothic_book", helvetica, sans-serif;
+	font-weight: bolder;
+	font-size: 2em;
 }
 #reseller_ad h2 a:hover{
 	text-decoration: none;
 	color: #d32f27;
-	font: bolder 2em "franklin_gothic_book", helvetica, sans-serif;
+	font-weight: bolder;
+	font-size: 2em;
 }
 #reseller_ad .resellers_img{
 	float: left;
