@@ -61,6 +61,7 @@ body{
 	height: auto !important;
 	height: 100%;
 	font-family: helvetica, sans-serif;
+	position: relative;
 }
 
 /*-----Header-----*/
@@ -79,7 +80,7 @@ h1{
 }
 #ppb img{
 	position: absolute;
-	left: 15px;
+	left: 1.5625%; /*--15px--*/
 	top: 20px;
 	width: 37.08333333%; /*--356px--*/
 	height: 56px;
@@ -104,7 +105,7 @@ nav ul li a:hover{
 #navl{
 	float: left;
 	overflow: hidden;
-	margin: -54px 0 0 5px;
+	margin: -54px 0 0 .520833333%; /*--5px--*/
 }
 #navl li{
 	float: left;
@@ -113,7 +114,7 @@ nav ul li a:hover{
 #navr{
 	float: right;
 	overflow: hidden;
-	margin: -54px 5px 0 0;
+	margin: -54px .520833333% 0 0; /*--5px--*/
 }
 #navr li{
 	float: left;
@@ -141,9 +142,9 @@ nav ul li a:hover{
 	background-size: 100% 400px;
 }
 #letter{
-	width: 44.791666667%; /*--430px--*/
-	margin: 3px 25px;
-	padding: 12px 8px;
+	width: 46.875%; /*--450px--*/
+	margin: 3px 1.5625%; /*--15px--*/
+	padding: 12px .833333333%; /*--8px--*/
 	background: url(../images/page.png);
 	background-repeat: no-repeat;
 	background-position: left bottom;
@@ -156,8 +157,9 @@ nav ul li a:hover{
 	background-image: url(../images/push_pin_left.png);
 	background-repeat: no-repeat;
 	background-position: left top;
+	background-size: 100% 40px;
 	float: left;
-	margin: -30px 0 0 -28px;
+	margin: -30px 0 0 -3.7777777777778%; /*--17px--*/
 }
 #pin_right{
 	width: 11.1627907%; /*--48px--*/
@@ -165,8 +167,9 @@ nav ul li a:hover{
 	background-image: url(../images/push_pin_right.png);
 	background-repeat: no-repeat;
 	background-position: right top;
+	background-size: 100% 40px;
 	float: right;
-	margin: -28px -38px 0 0;
+	margin: -28px -3.77777777778% 0 0; /*--17px--*/
 }
 #letterbod{
 	width: 93.02325581%; /*--400px--*/
@@ -177,96 +180,101 @@ nav ul li a:hover{
 #letterbod #sign{
 	text-align: right;
 	font: 1.4em "Homemade Apple", cursive;
-	margin-top: 5px;
+	margin: 3px 3% 5px 0; /*--15px--*/
 }
 .fb_comments{
 	width: 46.875%; /*--450px--*/
 	height: 530px;
 	overflow: hidden;
 	float: right;
-	margin: 8px 10px 0 0;
+	margin: 8px 1.0416666667% 0 0; /*--10px--*/
 	background: url(../images/fb_comments.jpg);
 	background-repeat: no-repeat;
+	background-size: 100% 530px;
 }
 
 /*-----News-----*/
 
 #ncp_top{
-	width: 640px;
+	width: 66.6666666667%; /*--640px--*/
 	height: 113px;
-	margin: 0 10px;
+	margin: 0 1.041666667%; /*--10px--*/
 	background: url(../images/ncp_top.jpg);
 	background-repeat: no-repeat;
+	background-size: 100% 113px;
+	float: left;
 }
 #ncp_body{
-	width: 640px;
-	margin: 0 10px;
+	width: 66.6666666667%; /*--640px--*/
+	margin: 0 1.041666667%; /*--10px--*/
 	background: url(../images/ncp_body.jpg);
 	background-repeat: repeat-y;
+	background-size: 100% 108px;
 	overflow: hidden;
+	float: left;
 }
 #ncp_body h2{
-	margin: 0 8px 18px;
+	margin: 0 8px 2.8125%; /*--18px--*/
 	text-align: center;
-	font: bold 28px "franklin_gothic_medium", helvetica, sans-serif;
+	font: bold 2.8em "franklin_gothic_medium", helvetica, sans-serif;
 }
 #ncp_body h3{
-	margin: 0 8px 13px;
+	margin: 0 1.25% 13px; /*--8px--*/
 	text-align: center;
-	font: 17px "franklin_gothic_medium", helvetica, sans-serif;
+	font: 1.7em "franklin_gothic_medium", helvetica, sans-serif;
 }
 #ncp_by{
-	margin-left: 8px;
+	margin-left: 1.25%; /*--8px--*/
 }
 #ncp_body a{
 	text-decoration: none;
 	color: #526d45;
-	font: 18px "franklin_gothic_book", helvetica, sans-serif;
+	font: 1.8em "franklin_gothic_book", helvetica, sans-serif;
 }
 #ncp_body a:hover{
 	text-decoration: none;
 	color: #d32f27;
-	font: 18px "franklin_gothic_book", helvetica, sans-serif;
+	font: 1.8em "franklin_gothic_book", helvetica, sans-serif;
 }
 #ncp_body figure{
 	float: right;
-	margin: 8px;
+	margin: 8px 1.25%; /*--8px--*/
 }
 #ncp_body figcaption{
-	font: lighter 11px "franklin_gothic_book", helvetica, sans-serif;
+	font: lighter 1.1em "franklin_gothic_book", helvetica, sans-serif;
 	margin-top: 3px;
 	text-align: right;
 }
 #ncp_body figcaption a{
 	text-decoration: none;
 	color: #526d45;
-	font: lighter 11px "franklin_gothic_book", helvetica, sans-serif;
+	font: lighter 1.1em "franklin_gothic_book", helvetica, sans-serif;
 }
 #ncp_body figcaption a:hover{
 	text-decoration: none;
 	color: #d32f27;
-	font: lighter 11px "franklin_gothic_book", helvetica, sans-serif;
+	font: lighter 1.1em "franklin_gothic_book", helvetica, sans-serif;
 }
 #ncp_article{
-	margin: 0 8px;
-	font: 15px "franklin_gothic_book", helvetica, sans-serif;
+	margin: 0 1.25%; /*--8px--*/
+	font: 1.5em "franklin_gothic_book", helvetica, sans-serif;
 }
 #ncp_article p{
 	margin-bottom: 0;
 }
 #ncp_article #pquote1{
 	float: left;
-	width: 238px;
+	width: 37.1875%; /*--238px--*/
 	background: rgba(243,243,236,.6);
-	padding: 3px;
-	margin: 3px 8px 3px 2px;
+	padding: 5px .78125%; /*--5px--*/
+	margin: 3px 1.25% 3px .3125%; /*--8px 2px--*/
 	overflow: hidden;
 	box-shadow: 0 0 5px rgba(243,243,236,.6);
 	quotes: "\201C" "\201D";
 }
 #ncp_article #pquote1:before{
 	content: open-quote;
-	font-size: 50px;
+	font-size: 5em;
 	color: #beb295;
 	float: left;
 	margin: -8px 0 0 0;
@@ -279,7 +287,7 @@ nav ul li a:hover{
 	margin: -28px -78px 0 0;
 }*/
 #ncp_article #pquote1 p{
-	margin: 0 0 0 20px;
+	margin: 0 0 0 14.70588235%; /*--35px--*/
 	padding: 0;
 	color: #B7806C;
 }
@@ -289,54 +297,59 @@ nav ul li a:hover{
 	font-weight: bold;
 }
 #ncp_src{
-	margin: 20px 25px 0 0;
+	margin: 20px 3.90625% 0 0; /*--25px--*/
 	float: right;
 }
 #ncp_src a{
 	text-decoration: none;
 	color: #526d45;
-	font: 18px "franklin_gothic_book", helvetica, sans-serif;
+	font: 1.8em "franklin_gothic_book", helvetica, sans-serif;
 }
 #ncp_src a:hover{
 	text-decoration: none;
 	color: #d32f27;
-	font: 18px "franklin_gothic_book", helvetica, sans-serif;
+	font: 1.8em "franklin_gothic_book", helvetica, sans-serif;
 }
 #ncp_bottom{
-	width: 640px;
+	width: 66.6666666667%; /*--640px--*/
 	height: 73px;
-	margin: 0 10px;
+	margin: 0 1.041666667%; /*--10px--*/
 	background: url(../images/ncp_bottom.jpg);
 	background-repeat: no-repeat;
+	background-size: 100% 73px;
+	float: left;
 }
 #reseller_ad{
-	width: 290px;
-	float: right;
-	margin: -1500px 10px 0 0;
+	width: 30.208333333333%; /*--290px--*/
+	margin: 0 5px 0 0;
 	background: #c2b69a;
+	position: absolute;
+	top: 230px;
+	right: 5px;
+	z-index: -1;
 }
 #reseller_ad h2{
 	margin: 0;
-	padding: 15px 0 18px 15px;
+	padding: 15px 0 18px 5.17241379%; /*--15px--*/
 	background: #beb295;
 }
 #reseller_ad h2 a{
 	text-decoration: none;
 	color: #526d45;
-	font: bolder 28px "franklin_gothic_book", helvetica, sans-serif;
+	font: bolder 2em "franklin_gothic_book", helvetica, sans-serif;
 }
 #reseller_ad h2 a:hover{
 	text-decoration: none;
 	color: #d32f27;
-	font: bolder 28px "franklin_gothic_book", helvetica, sans-serif;
+	font: bolder 2em "franklin_gothic_book", helvetica, sans-serif;
 }
 #reseller_ad .resellers_img{
 	float: left;
-	margin: 10px 0 10px 50px; 
+	margin: 10px 0 10px 17.24137931%; /*--50px--*/ 
 }
 #reseller_ad .resellers_img #oldworldimg{
 	float: left;
-	margin: 10px 0 10px 38px;
+	margin: 10px 0 10px 20%; /*--58px--*/
 }
 
 /*-----Products-----*/
@@ -349,14 +362,14 @@ nav ul li a:hover{
 	width: 97.9166666667%; /*--940px--*/
 	float: left;
 	overflow: hidden;
-	margin: 10px;
+	margin: 10px 1.0416666667%; /*--10px--*/
 }
 .products img{
 	float: left;
 }
 .products h3{
 	float: left;
-	margin: 5px 0 8px 10px;
+	margin: 5px 0 8px 1.06382979%; /*--10px--*/
 	font-size: 2em;
 }
 .products .ingredients{
@@ -389,7 +402,7 @@ nav ul li a:hover{
 #ingredients_modal{
 	background: url(../images/extra_clean_paper_@2X.jpg);
 	width: 46.875%; /*--450px--*/
-	padding: 20px;
+	padding: 20px 2.083333333%; /*--20px--*/
 	margin: 90px auto 40px;
 	border: 2px solid #333;
 	position: relative;
@@ -399,9 +412,12 @@ nav ul li a:hover{
 	visibility: visible;
 	display: block;
 }
+#ingredients_modal p{
+	font-size: 1.5em;
+}
 .products .description{
 	float: left;
-	width: 730px;
+	width: 76.041666666667%; /*--730--*/
 	margin: -130px 0 0 22.55319149%; /*--212px--*/
 	font-size: 1.4em;
 }
@@ -413,26 +429,41 @@ nav ul li a:hover{
 }
 #resellers .resellers_img{
 	display: block;
-	width: 280px;
+	width: 29.166666667%; /*--280px---*/
 	background: #232323;
 }
 #resellers section img{
-	margin: 25px 15px;
+	margin: 25px 5.35714286%; /*--15px--*/
 	float: left;
 	clear: left;
 }
 .resellers_info{
-	width: 320px;
+	width: 33.33333333333%; /*--320--*/
 	float: left;
-	margin: 3px 0 0 8px;
+	margin: 3px 0 0 .8333333333%; /*--8px--*/
 }
 #Old_World_Food .resellers_info{
-	width: 320px;
+	width: 33.33333333333%; /*--320px--*/
 	float: left;
-	margin: 3px 0 0 75px;
+	margin: 3px 0 0 7.8125%; /*---75px--*/
 }
 #Steves_Meats .resellers_img{
 	margin-bottom: 20px;
+}
+.resellers_info h3{
+	font-size: 1.8em;
+	margin-bottom: 8px;
+}
+.resellers_info h3 a{
+	text-decoration: none;
+	color: #526d45;
+}
+.resellers_info h3 a:hover{
+	text-decoration: none;
+	color: #d32f27;
+}
+.resellers_info address{
+	font-size: 1.3em;
 }
 
 /*-----Reviews-----*/
@@ -442,57 +473,57 @@ nav ul li a:hover{
 }
 #review_form{
 	overflow: hidden;
-	width: 450px;
-	margin: 0 0 0 50px;
+	width: 46.875%; /*--450px--*/
+	margin: 0 0 0 5.208333333%; /*--50px--*/
 	background: rgba(243,243,236,.5);
 }
 #review_form #reqmes{
-	margin: 0 0 8px 368px;
-	font: 10px helvetica, sans-serif;
+	margin: 0 0 15px 34.44444444%; /*--155px--*/
+	font: 1em helvetica, sans-serif;
 	color: #d32f27;
 }
 #review_form .reqpar{
-	font: 17px "Sintony", sans-serif;
+	font: 1.7em "Sintony", sans-serif;
 	color: #d32f27;
 }
 #review_form .revlabel{
 	display: block;
-	width: 90px;
+	width: 20%; /*--90px--*/
 	text-align: right;
 }
 #review_form .revinput, #review_form textarea{
 	float: left;
-	margin: -21px 0 14px 155px;
+	margin: -21px 0 14px 34.44444444%; /*--155px--*/
 }
 #review_form #name, #review_form #email{
-	width: 250px;
+	width: 55.555555556%; /*--250px--*/
 }
 #review_form #message{
-	width: 253px;
+	width: 56.222222222%; /*--253px--*/
 }
 #review_form .req{
-	font: 17px "Sintony", sans-serif;
+	font: 1.7em "Sintony", sans-serif;
 	color: #d32f27;
 	float: left;
-	margin: -25px 0 0 4px;
+	margin: -25px 0 0 .8888888889%; /*--4px--*/
 }
 #review_form #post{
 	display: block;
-	width: 90px;
+	width: 20%; /*--90px--*/
 	height: 30px;
-	margin: 30px 0 0 320px;
+	margin: 30px 0 0 71.111111111%; /*--320px--*/
 	border-radius: 8px;
 }
 .review_form #review_form .stars{
 	clear: both;
-	margin: -53px 0 0 155px;
+	margin: -53px 0 0 34.44444444%; /*--155px--*/
 }
 .reviews{
-	overflow: scroll;
-	width: 450px;
-	height: 475px;
+	/*overflow: scroll;*/
+	width: 46.875%; /*--450px--*/
+	/*height: 475px;*/
 	float: right;
-	margin: -215px 10px 0 0;
+	margin: -215px 1.041666667% 0 0; /*--10px--*/
 }
 .reviews ul{
 	list-style: none;
@@ -500,90 +531,89 @@ nav ul li a:hover{
 	overflow: hidden;
 }
 .reviews .name{
-	font: bolder 18px helvetica, sans-serif;
+	font: bolder 1.8em helvetica, sans-serif;
 	float: left;
 }
 .reviews .date{
-	font: lighter 13px helvetica, sans-serif;
+	font: lighter 1.3em helvetica, sans-serif;
 	float: left;
-	margin: 2px 0 0 8px;
+	margin: 2px 0 0 1.777777778%; /*--8px--*/
 }
 .reviews .comment{
-	font-size: 15px;
+	font-size: 1.5em;
 	clear: both;
-	margin: 5px 5px 5px 10px;
+	margin: 5px 1.11111111% 5px 2.222222222%; /*--5px 10px--*/
 }
-
-
 /*-----Contact-----*/
 
 #contact_form{
 	overflow: hidden;
-	width: 500px;
-	margin: 0 0 0 50px;
+	float: left;
+	width: 52.08333333333%; /*--500px--*/
+	margin: 0 0 0 5.208333333%; /*--50px--*/
 	background: rgba(243,243,236,.5);
 }
 #contact_form h2{
 	margin: 18px 0 0 0;
-	font: 25px helvetica, sans-serif;
+	font: 2.5em helvetica, sans-serif;
 }
 #contact_form p{
-	margin: 9px 0 10px 10px;
-	font: 13px helvetica, sans-serif;
+	margin: 9px 0 10px 2%; /*--10px--*/
+	font: 1.3em helvetica, sans-serif;
 }
 #contact_form #reqmes{
-	margin: 0 0 8px 368px;
-	font: 10px helvetica, sans-serif;
+	margin: 0 0 8px 31%; /*--155px--*/
+	font: 1em helvetica, sans-serif;
 	color: #d32f27;
 }
 #contact_form .reqpar{
-	font: 17px "Sintony", sans-serif;
+	font: 1.7em "Sintony", sans-serif;
 	color: #d32f27;
 }
 #contact_form label{
 	display: block;
-	width: 90px;
+	width: 18%; /*--90px--*/
 	text-align: right;
+	font-size: 1.4em;
 }
 #contact_form input, #contact_form select, #contact_form textarea{
 	float: left;
-	margin: -21px 0 14px 155px;
+	margin: -21px 0 14px 31%; /*--155px--*/
 }
 #contact_form #fname, #contact_form #lname, #contact_form #address1, #contact_form #city, #contact_form #email{
-	width: 250px;
+	width: 50%; /*--250px--*/
 }
 #contact_form #tel{
-	width: 135px;
+	width: 27%; /*--135px--*/
 }
 #contact_form #address2{
-	width: 250px;
+	width: 50%; /*--250px--*/
 	margin-top: -14px;
 }
 #contact_form #message{
-	width: 253px;
+	width: 50.6%; /*--253px--*/
 }
 #contact_form .req{
-	font: 17px "Sintony", sans-serif;
+	font: 1.7em "Sintony", sans-serif;
 	color: #d32f27;
 	float: left;
-	margin: -25px 0 0 4px;
+	margin: -25px 0 0 .8%; /*--4px--*/
 }
 #contact_form #reset{
-	display: block;
-	width: 80px;
-	margin: 40px 0 0 245px;
-	font: 11px helvetica, sans-serif;
+	width: 16%; /*--80--*/
+	margin: 40px 0 0 49%; /*--245px--*/
+	font: 1.1em helvetica, sans-serif;
 }
 #contact_form #submit{
-	display: block;
-	width: 90px;
+	width: 18%; /*--90px--*/
 	height: 30px;
-	margin: -20px 0 0 320px;
+	margin: -20px 0 0 64%; /*--320px--*/
 	border-radius: 8px;
 }
 #bottle{
 	float: right;
-	margin: -443px 75px 0 0;
+	width: 31.25%; /*--300px--*/
+	margin: 5px 5.208333333% 0 0; /*--50px--*/
 }
 
 /*-----Footer-----*/
@@ -592,27 +622,38 @@ nav ul li a:hover{
 	height: 50px;
 }
 footer{
+	height: 50px;
+	width: 93.75%; /*--960px--*/
 	overflow: hidden;
 	clear: both;
-	margin-top: 50px;
-	width: 960px;
 	margin: 50px auto 0;
+	background: url(../images/footer.jpg);
+	box-shadow: 0 -2.5px 10px #282828;
+	background-size: 100% 50px;
+}
+footer #copyright{
+	float: left;
+	margin: 7px 0 0 .52083333%; /*--5px--*/
+	vertical-align: middle;
+	font-size: 1.2em;
+}
+footer #created_by{
+	float: left;
+	margin: 32px 0 0 -24.479166667%; /*--235px--*/
+	font-size: 1.2em;
 }
 footer ul{
-	width: 960px;
-	height: 50px;
+	width: 31.25%; /*--300px--*/
 	list-style: none;
 	padding: 0;
 	float: right;
 	overflow: hidden;
-	margin: 0;
-	background: url(../images/footer.jpg);
-	box-shadow: 0 -2.5px 10px #282828;
+	margin: 3px .3125% 0 0; /*--3px--*/
 }
 footer ul li{
 	float: right;
-	margin: 0 3px;
-	font: 17px "Open Sans Condensed", sans-serif;
+	margin: 0 .3125%; /*--3px--*/
+	font: 1.6em "Open Sans Condensed", sans-serif;
 }
 footer ul li a{
 	text-decoration: none;
