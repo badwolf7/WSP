@@ -106,6 +106,7 @@ nav ul li a:hover{
 	float: left;
 	overflow: hidden;
 	margin: -54px 0 0 .520833333%; /*--5px--*/
+	width: 37.08333333%; /*--356px--*/
 }
 #navl li{
 	float: left;
@@ -115,6 +116,7 @@ nav ul li a:hover{
 	float: right;
 	overflow: hidden;
 	margin: -54px .520833333% 0 0; /*--5px--*/
+	width: 37.08333333%; /*--356px--*/
 }
 #navr li{
 	float: left;
@@ -128,6 +130,20 @@ nav ul li a:hover{
 }
 #nav_current a:hover{
 	color: #c2b69a;
+}
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+	nav ul li a{
+		font-size: 1em;
+	}
+	nav ul li a:hover{
+		font-size: 1em;
+	}
+	/*#navl{
+		width: 50%;
+	}
+	#navr{
+		width: 50%;
+	}*/
 }
 
 /*-----Content-----*/
@@ -193,6 +209,103 @@ nav ul li a:hover{
 	background-size: 100% 530px;
 }
 
+
+@media only screen and (max-width: 321px) {
+	#img{
+		height: 125px;
+		background-size: 100% 125px;
+	}
+	#letter{
+		width: 97.9166666667%; /*--940px--*/
+		margin: 3px auto;
+		background-size: 100% 850px;
+	}
+	#pin_left, #pin_right{
+		height: 13px;
+		background-size: 100% 13px;
+	}
+	#letterbod{
+		font-size: 1.5em;
+	}
+	#letterbod #sign{
+		font-size: 1em;
+		margin: 1px 3% 5px 0;
+	}
+	.fb_comments{
+		width: 97.9166666667%; /*--940px--*/
+		background: url(../images/fb_comments-sm.jpg);
+		height: 310px;
+		background-size: 100% 310px;
+		background-repeat: no-repeat;
+	}
+}
+@media only screen and (min-width: 322px) and (max-width: 480px) {
+	#img{
+		height: 188px;
+		background-size: 100% 188px;
+	}
+	#letter{
+		width: 97.9166666667%; /*--940px--*/
+		margin: 3px auto;
+		background-size: 100% 850px;
+	}
+	#pin_left, #pin_right{
+		height: 19px;
+		background-size: 100% 19px;
+	}
+	.fb_comments{
+		width: 97.9166666667%; /*--940px--*/
+		background: url(../images/fb_comments-sm.jpg);
+		height: 310px;
+		background-size: 100% 310px;
+		background-repeat: no-repeat;
+	}
+}
+@media only screen and (min-width: 481px) and (max-width: 600px) {
+	#img{
+		height: 234px;
+		background-size: 100% 234px;
+	}
+	#letter{
+		width: 97.9166666667%; /*--940px--*/
+		margin: 3px auto;
+		background-size: 100% 850px;
+	}
+	#pin_left, #pin_right{
+		height: 23px;
+		background-size: 100% 23px;
+	}
+	.fb_comments{
+		width: 97.9166666667%; /*--940px--*/
+		background: url(../images/fb_comments-sm.jpg);
+		height: 310px;
+		background-size: 100% 310px;
+		background-repeat: no-repeat;
+	}
+}
+@media only screen and (min-width: 601px) and (max-width: 800px) {
+	#img{
+		height: 313px;
+		background-size: 100% 313px;
+	}
+	#letter{
+		width: 97.9166666667%; /*--940px--*/
+		margin: 3px auto;
+		background-size: 100% 850px;
+	}
+	#pin_left, #pin_right{
+		height: 31px;
+		background-size: 100% 31px;
+	}
+	.fb_comments{
+		width: 97.9166666667%; /*--940px--*/
+		background: url(../images/fb_comments-sm.jpg);
+		height: 310px;
+		background-size: 100% 310px;
+		background-repeat: no-repeat;
+	}
+}
+
 /*-----News-----*/
 
 #ncp_top{
@@ -215,7 +328,6 @@ nav ul li a:hover{
 }
 #ncp_body h2, #ncp_body h3{
 	font-family: "franklin_gothic_medium", helvetica, sans-serif;
-	margin: 
 }
 #ncp_body h2{
 	margin: 0 3.125% 18px; /*--20px--*/
@@ -363,6 +475,17 @@ nav ul li a:hover{
 #reseller_ad .resellers_img #oldworldimg{
 	float: left;
 	margin: 10px 0 10px 20%; /*--58px--*/
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+	#ncp_top, #ncp_body, #ncp_bottom{
+		float: left;
+		width: 97.9166666667%; /*--940px--*/
+		margin: 0 auto;
+	}
+	#reseller_ad{
+		display: none;
+	}
 }
 
 /*-----Products-----*/
@@ -675,3 +798,61 @@ footer ul li a{
 footer ul li a:hover{
 	color: #d32f27;
 }
+
+
+
+
+
+@media only screen and (max-width: 321px) {
+	.wrapper{
+		margin: 0 auto -31px;
+	}
+	h1{
+		height: 70px;
+		background-size: 100% 70px;
+	}
+	#ppb img{
+		height: 18px;
+		top: 6px;
+	}
+}
+@media only screen and (min-width: 322px) and (max-width: 480px) {
+	.wrapper{
+		margin: 0 auto -47px;
+	}
+	h1{
+		height: 105px;
+		background-size: 100% 105px;
+	}
+	#ppb img{
+		height: 26px;
+		top: 9px;
+	}
+}
+@media only screen and (min-width: 481px) and (max-width: 600px) {
+	.wrapper{
+		margin: 0 auto -59px;
+	}
+	h1{
+		height: 131px;
+		background-size: 100% 131px;
+	}
+	#ppb img{
+		height: 33px;
+		top: 12px;
+	}
+}
+@media only screen and (min-width: 601px) and (max-width: 800px) {
+	.wrapper{
+		margin: 0 auto -78px;
+	}
+	h1{
+		height: 174px;
+		background-size: 100% 174px;
+	}
+	#ppb img{
+		height: 44px;
+		top: 16px;
+	}
+}
+
