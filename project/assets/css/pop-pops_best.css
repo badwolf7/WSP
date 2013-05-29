@@ -846,8 +846,8 @@ footer ul li a:hover{
 	.fb_comments{
 		width: 97.9166666667%; /*--940px--*/
 		background: url(../images/fb_comments-sm.jpg);
-		height: 310px;
-		background-size: 100% 310px;
+		height: 205px;
+		background-size: 100% 205px;
 		background-repeat: no-repeat;
 	}
 
@@ -968,11 +968,13 @@ footer ul li a:hover{
 
 @media only screen and (min-width: 322px) and (max-width: 480px) {
 	/*-----General-----*/
+
 	.wrapper{
 		margin: 0 auto -47px;
 	}
 
 	/*-----Header-----*/
+
 	h1{
 		background: url(../images/header_sm.jpg);
 		height: 105px;
@@ -993,11 +995,11 @@ footer ul li a:hover{
 	}
 	#navl{
 		width: 49.5%;
-		margin: -21px 0 0 0;
+		margin: -23px 0 0 0;
 	}
 	#navr{
 		width: 49.5%;
-		margin: -21px 0 0 0;
+		margin: -23px 0 0 0;
 	}
 	#navl li{
 		margin: 0 6.9%;
@@ -1009,8 +1011,8 @@ footer ul li a:hover{
 	/*-----Home-----*/
 
 	#img{
-		height: 150px;
-		background-size: 100% 150px;
+		height: 225px;
+		background-size: 100% 225px;
 	}
 	#letter{
 		width: 97.9166666667%; /*--940px--*/
@@ -1033,8 +1035,8 @@ footer ul li a:hover{
 	.fb_comments{
 		width: 97.9166666667%; /*--940px--*/
 		background: url(../images/fb_comments-sm.jpg);
-		height: 310px;
-		background-size: 100% 310px;
+		height: 256px;
+		background-size: 100% 256px;
 		background-repeat: no-repeat;
 	}
 
