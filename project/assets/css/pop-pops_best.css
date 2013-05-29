@@ -110,7 +110,7 @@ nav ul li a:hover{
 }
 #navl li{
 	float: left;
-	margin: 0 27px;
+	margin: 0 7.3%;
 }
 #navr{
 	float: right;
@@ -120,7 +120,7 @@ nav ul li a:hover{
 }
 #navr li{
 	float: left;
-	margin: 0 22px;
+	margin: 0 6.3%;
 }
 #nav_current{
 	border-bottom: 3px solid #beb295;
@@ -130,20 +130,6 @@ nav ul li a:hover{
 }
 #nav_current a:hover{
 	color: #c2b69a;
-}
-@media only screen and (min-width: 320px) and (max-width: 480px) {
-	nav ul li a{
-		font-size: 1em;
-	}
-	nav ul li a:hover{
-		font-size: 1em;
-	}
-	/*#navl{
-		width: 50%;
-	}
-	#navr{
-		width: 50%;
-	}*/
 }
 
 /*-----Content-----*/
@@ -210,35 +196,6 @@ nav ul li a:hover{
 }
 
 
-@media only screen and (max-width: 321px) {
-	#img{
-		height: 125px;
-		background-size: 100% 125px;
-	}
-	#letter{
-		width: 97.9166666667%; /*--940px--*/
-		margin: 3px auto;
-		background-size: 100% 850px;
-	}
-	#pin_left, #pin_right{
-		height: 13px;
-		background-size: 100% 13px;
-	}
-	#letterbod{
-		font-size: 1.5em;
-	}
-	#letterbod #sign{
-		font-size: 1em;
-		margin: 1px 3% 5px 0;
-	}
-	.fb_comments{
-		width: 97.9166666667%; /*--940px--*/
-		background: url(../images/fb_comments-sm.jpg);
-		height: 310px;
-		background-size: 100% 310px;
-		background-repeat: no-repeat;
-	}
-}
 @media only screen and (min-width: 322px) and (max-width: 480px) {
 	#img{
 		height: 188px;
@@ -477,16 +434,7 @@ nav ul li a:hover{
 	margin: 10px 0 10px 20%; /*--58px--*/
 }
 
-@media only screen and (min-width: 320px) and (max-width: 480px) {
-	#ncp_top, #ncp_body, #ncp_bottom{
-		float: left;
-		width: 97.9166666667%; /*--940px--*/
-		margin: 0 auto;
-	}
-	#reseller_ad{
-		display: none;
-	}
-}
+
 
 /*-----Products-----*/
 
@@ -501,6 +449,8 @@ nav ul li a:hover{
 	margin: 10px 1.0416666667%; /*--10px--*/
 }
 .products img{
+	width: 20.833333333333%; /*--200px--*/
+	height: 200px;
 	float: left;
 }
 .products h3{
@@ -511,7 +461,7 @@ nav ul li a:hover{
 .products .ingredients{
 	float: left;
 	margin: 27px 0 0 -18.08510638%; /*--170px--*/
-	font: bold 1.9em "Open Sans Condensed", sans-serif;
+	font: bold 2em "Open Sans Condensed", sans-serif;
 }
 .products .ingredients a{
 	text-decoration: none;
@@ -551,9 +501,15 @@ nav ul li a:hover{
 #ingredients_modal p{
 	font-size: 1.5em;
 }
+#ingredients_modal a{
+	display: block;
+	text-decoration: none;
+	font-size: 1.8em;
+	margin: 15px 0 0 2.083333333%; /*--20px--*/
+}
 .products .description{
 	float: left;
-	width: 76.041666666667%; /*--730--*/
+	width: 76.041666666667%; /*--730px--*/
 	margin: -130px 0 0 22.55319149%; /*--212px--*/
 	font-size: 1.4em;
 }
@@ -608,6 +564,7 @@ nav ul li a:hover{
 	margin: 20px 0 0 0;
 }
 #review_form{
+	float: left;
 	overflow: hidden;
 	width: 46.875%; /*--450px--*/
 	margin: 0 0 0 5.208333333%; /*--50px--*/
@@ -659,7 +616,7 @@ nav ul li a:hover{
 	width: 46.875%; /*--450px--*/
 	/*height: 475px;*/
 	float: right;
-	margin: -215px 1.041666667% 0 0; /*--10px--*/
+	margin: 0 1.041666667% 0 0; /*--10px--*/
 }
 .reviews ul{
 	list-style: none;
@@ -680,6 +637,7 @@ nav ul li a:hover{
 	clear: both;
 	margin: 5px 1.11111111% 5px 2.222222222%; /*--5px 10px--*/
 }
+
 /*-----Contact-----*/
 
 #contact_form{
@@ -804,19 +762,196 @@ footer ul li a:hover{
 
 
 @media only screen and (max-width: 321px) {
+	/*-----General-----*/
+	
 	.wrapper{
 		margin: 0 auto -31px;
 	}
+
+	/*-----Header-----*/
+
 	h1{
-		height: 70px;
-		background-size: 100% 70px;
+		background: url(../images/header_sm.jpg);
+		height: 100px;
+		background-size: 100% 100px;
 	}
 	#ppb img{
 		height: 18px;
 		top: 6px;
 	}
+
+	/*-----Nav-----*/
+
+	nav ul li a{
+		font-size: 1.3em;
+	}
+	nav ul li a:hover{
+		font-size: 1.3em;
+	}
+	#navl{
+		width: 49.5%;
+		margin: -21px 0 0 0;
+	}
+	#navr{
+		width: 49.5%;
+		margin: -21px 0 0 0;
+	}
+	#navl li{
+		margin: 0 6.9%;
+	}
+	#navr li{
+		margin: 0 5.1%;
+	}
+
+	/*-----Home-----*/
+
+	#img{
+		height: 150px;
+		background-size: 100% 150px;
+	}
+	#letter{
+		width: 97.9166666667%; /*--940px--*/
+		margin: 3px auto;
+		background-size: 100% 850px;
+	}
+	#pin_left, #pin_right{
+		height: 30px;
+		background-size: 100% 30px;
+	}
+	#letterbod{
+		font-size: 1.5em;
+		margin-bottom: 0;
+	}
+	#letterbod #sign{
+		font-size: 1em;
+		margin: -7px 3% 5px 0;
+		padding-bottom: 20px;
+	}
+	.fb_comments{
+		width: 97.9166666667%; /*--940px--*/
+		background: url(../images/fb_comments-sm.jpg);
+		height: 310px;
+		background-size: 100% 310px;
+		background-repeat: no-repeat;
+	}
+
+	/*-----News-----*/
+
+	#ncp_top, #ncp_body, #ncp_bottom{
+		float: left;
+		width: 97.9166666667%; /*--940px--*/
+		margin: 0 auto;
+	}
+	#reseller_ad{
+		display: none;
+	}
+
+	/*-----Products-----*/
+
+	.products img{
+		width: 40%;
+		height: 120px;
+	}
+	.products h3{
+		float: left;
+		margin: 5px 0 5px 3.125%; /*--10px--*/
+		font-size: 1.7em;
+	}
+	.products .ingredients{
+		margin: 0 0 10px 3.125%; /*--10px--*/
+		font: bold 1.6em "Open Sans Condensed", sans-serif;
+	}
+	#ingredients_modal{
+		width: 97%;
+	}
+	#ingredients_modal p{
+		font-size: 1.5em;
+		margin: 0 0 0 3.125%;
+	}
+	.products .description{
+		float: left;
+		width: 55%;
+		margin: 0 0 0 3.125%;
+		font-size: 1.4em;
+	}
+
+	/*-----Resellers-----*/
+
+	/*-----Reviews-----*/
+
+	#review_form{
+		width: 97.9166666667%; /*--940px--*/
+		margin: 0 0 0 5.208333333%; /*--50px--*/
+	}
+	#review_form div{
+		margin: 15px 0;
+	}
+	.reviews{
+		width: 97.9166666667%; /*--940px--*/
+		clear: both;
+		float: left;
+		margin: 0 1.041666667% 0 0; /*--10px--*/
+	}
+	#review_form input{
+		height: 23px;
+	}
+	#review_form textarea{
+		height: 50px;
+	}
+
+	/*-----Contact-----*/
+
+	#contact_form{
+		width: 97.9166666667%; /*--940px--*/
+		margin: 0 0 0 5.208333333%; /*--50px--*/
+	}
+	#contact_form p{
+		margin: 9px 0 10px 0;
+		font: 1em helvetica, sans-serif;
+	}
+	#contact_form label{
+		font-size: 1em;
+	}
+	#contact_form input{
+		height: 23px;
+	}
+	#contact_form textarea{
+		height: 50px;
+	}
+	#bottle{
+		display: none;
+	}
+
+	/*-----Footer-----*/
+
+	.push{
+		height: 80px;
+	}
+	footer{
+		height: 80px;
+		margin: 80px auto 0;
+		background: url(../images/footer.jpg);
+		background-size: 100% 80px;
+	}
+	footer #copyright{
+		margin: 7px 0 0 .52083333%; /*--5px--*/
+		font-size: 1em;
+	}
+	footer #created_by{
+		margin: 5px 0 0 .52083333%;
+		font-size: 1em;
+	}
+	footer ul{
+		width: 97.9166666667%; /*--940px--*/
+		margin: 15px .52083333% 0 0; /*--5px--*/
+	}
+	footer ul li{
+		margin: 0 .5%;
+	}
 }
+
 @media only screen and (min-width: 322px) and (max-width: 480px) {
+	/*-----General-----*/
 	.wrapper{
 		margin: 0 auto -47px;
 	}
@@ -828,8 +963,179 @@ footer ul li a:hover{
 		height: 26px;
 		top: 9px;
 	}
+
+		/*-----Nav-----*/
+
+	nav ul li a{
+		font-size: 1.3em;
+	}
+	nav ul li a:hover{
+		font-size: 1.3em;
+	}
+	#navl{
+		width: 49.5%;
+		margin: -21px 0 0 0;
+	}
+	#navr{
+		width: 49.5%;
+		margin: -21px 0 0 0;
+	}
+	#navl li{
+		margin: 0 6.9%;
+	}
+	#navr li{
+		margin: 0 5.1%;
+	}
+
+	/*-----Home-----*/
+
+	#img{
+		height: 150px;
+		background-size: 100% 150px;
+	}
+	#letter{
+		width: 97.9166666667%; /*--940px--*/
+		margin: 3px auto;
+		background-size: 100% 850px;
+	}
+	#pin_left, #pin_right{
+		height: 30px;
+		background-size: 100% 30px;
+	}
+	#letterbod{
+		font-size: 1.5em;
+		margin-bottom: 0;
+	}
+	#letterbod #sign{
+		font-size: 1em;
+		margin: -7px 3% 5px 0;
+		padding-bottom: 20px;
+	}
+	.fb_comments{
+		width: 97.9166666667%; /*--940px--*/
+		background: url(../images/fb_comments-sm.jpg);
+		height: 310px;
+		background-size: 100% 310px;
+		background-repeat: no-repeat;
+	}
+
+	/*-----News-----*/
+
+	#ncp_top, #ncp_body, #ncp_bottom{
+		float: left;
+		width: 97.9166666667%; /*--940px--*/
+		margin: 0 auto;
+	}
+	#reseller_ad{
+		display: none;
+	}
+
+	/*-----Products-----*/
+
+	.products img{
+		width: 40%;
+		height: 120px;
+	}
+	.products h3{
+		float: left;
+		margin: 5px 0 5px 3.125%; /*--10px--*/
+		font-size: 1.7em;
+	}
+	.products .ingredients{
+		margin: 0 0 10px 3.125%; /*--10px--*/
+		font: bold 1.6em "Open Sans Condensed", sans-serif;
+	}
+	#ingredients_modal{
+		width: 97%;
+	}
+	#ingredients_modal p{
+		font-size: 1.5em;
+		margin: 0 0 0 3.125%;
+	}
+	.products .description{
+		float: left;
+		width: 55%;
+		margin: 0 0 0 3.125%;
+		font-size: 1.4em;
+	}
+
+	/*-----Resellers-----*/
+
+	/*-----Reviews-----*/
+
+	#review_form{
+		width: 97.9166666667%; /*--940px--*/
+		margin: 0 0 0 5.208333333%; /*--50px--*/
+	}
+	#review_form div{
+		margin: 15px 0;
+	}
+	.reviews{
+		width: 97.9166666667%; /*--940px--*/
+		clear: both;
+		float: left;
+		margin: 0 1.041666667% 0 0; /*--10px--*/
+	}
+	#review_form input{
+		height: 23px;
+	}
+	#review_form textarea{
+		height: 50px;
+	}
+
+	/*-----Contact-----*/
+
+	#contact_form{
+		width: 97.9166666667%; /*--940px--*/
+		margin: 0 0 0 5.208333333%; /*--50px--*/
+	}
+	#contact_form p{
+		margin: 9px 0 10px 0;
+		font: 1em helvetica, sans-serif;
+	}
+	#contact_form label{
+		font-size: 1em;
+	}
+	#contact_form input{
+		height: 23px;
+	}
+	#contact_form textarea{
+		height: 50px;
+	}
+	#bottle{
+		display: none;
+	}
+
+	/*-----Footer-----*/
+
+	.push{
+		height: 80px;
+	}
+	footer{
+		height: 80px;
+		margin: 80px auto 0;
+		background: url(../images/footer.jpg);
+		background-size: 100% 80px;
+	}
+	footer #copyright{
+		margin: 7px 0 0 .52083333%; /*--5px--*/
+		font-size: 1em;
+	}
+	footer #created_by{
+		margin: 5px 0 0 .52083333%;
+		font-size: 1em;
+	}
+	footer ul{
+		width: 97.9166666667%; /*--940px--*/
+		margin: 15px .52083333% 0 0; /*--5px--*/
+	}
+	footer ul li{
+		margin: 0 .5%;
+	}
 }
+
 @media only screen and (min-width: 481px) and (max-width: 600px) {
+	/*-----General-----*/
 	.wrapper{
 		margin: 0 auto -59px;
 	}
@@ -841,8 +1147,179 @@ footer ul li a:hover{
 		height: 33px;
 		top: 12px;
 	}
+
+		/*-----Nav-----*/
+
+	nav ul li a{
+		font-size: 1.3em;
+	}
+	nav ul li a:hover{
+		font-size: 1.3em;
+	}
+	#navl{
+		width: 49.5%;
+		margin: -21px 0 0 0;
+	}
+	#navr{
+		width: 49.5%;
+		margin: -21px 0 0 0;
+	}
+	#navl li{
+		margin: 0 6.9%;
+	}
+	#navr li{
+		margin: 0 5.1%;
+	}
+
+	/*-----Home-----*/
+
+	#img{
+		height: 150px;
+		background-size: 100% 150px;
+	}
+	#letter{
+		width: 97.9166666667%; /*--940px--*/
+		margin: 3px auto;
+		background-size: 100% 850px;
+	}
+	#pin_left, #pin_right{
+		height: 30px;
+		background-size: 100% 30px;
+	}
+	#letterbod{
+		font-size: 1.5em;
+		margin-bottom: 0;
+	}
+	#letterbod #sign{
+		font-size: 1em;
+		margin: -7px 3% 5px 0;
+		padding-bottom: 20px;
+	}
+	.fb_comments{
+		width: 97.9166666667%; /*--940px--*/
+		background: url(../images/fb_comments-sm.jpg);
+		height: 310px;
+		background-size: 100% 310px;
+		background-repeat: no-repeat;
+	}
+
+	/*-----News-----*/
+
+	#ncp_top, #ncp_body, #ncp_bottom{
+		float: left;
+		width: 97.9166666667%; /*--940px--*/
+		margin: 0 auto;
+	}
+	#reseller_ad{
+		display: none;
+	}
+
+	/*-----Products-----*/
+
+	.products img{
+		width: 40%;
+		height: 120px;
+	}
+	.products h3{
+		float: left;
+		margin: 5px 0 5px 3.125%; /*--10px--*/
+		font-size: 1.7em;
+	}
+	.products .ingredients{
+		margin: 0 0 10px 3.125%; /*--10px--*/
+		font: bold 1.6em "Open Sans Condensed", sans-serif;
+	}
+	#ingredients_modal{
+		width: 97%;
+	}
+	#ingredients_modal p{
+		font-size: 1.5em;
+		margin: 0 0 0 3.125%;
+	}
+	.products .description{
+		float: left;
+		width: 55%;
+		margin: 0 0 0 3.125%;
+		font-size: 1.4em;
+	}
+
+	/*-----Resellers-----*/
+
+	/*-----Reviews-----*/
+
+	#review_form{
+		width: 97.9166666667%; /*--940px--*/
+		margin: 0 0 0 5.208333333%; /*--50px--*/
+	}
+	#review_form div{
+		margin: 15px 0;
+	}
+	.reviews{
+		width: 97.9166666667%; /*--940px--*/
+		clear: both;
+		float: left;
+		margin: 0 1.041666667% 0 0; /*--10px--*/
+	}
+	#review_form input{
+		height: 23px;
+	}
+	#review_form textarea{
+		height: 50px;
+	}
+
+	/*-----Contact-----*/
+
+	#contact_form{
+		width: 97.9166666667%; /*--940px--*/
+		margin: 0 0 0 5.208333333%; /*--50px--*/
+	}
+	#contact_form p{
+		margin: 9px 0 10px 0;
+		font: 1em helvetica, sans-serif;
+	}
+	#contact_form label{
+		font-size: 1em;
+	}
+	#contact_form input{
+		height: 23px;
+	}
+	#contact_form textarea{
+		height: 50px;
+	}
+	#bottle{
+		display: none;
+	}
+
+	/*-----Footer-----*/
+
+	.push{
+		height: 80px;
+	}
+	footer{
+		height: 80px;
+		margin: 80px auto 0;
+		background: url(../images/footer.jpg);
+		background-size: 100% 80px;
+	}
+	footer #copyright{
+		margin: 7px 0 0 .52083333%; /*--5px--*/
+		font-size: 1em;
+	}
+	footer #created_by{
+		margin: 5px 0 0 .52083333%;
+		font-size: 1em;
+	}
+	footer ul{
+		width: 97.9166666667%; /*--940px--*/
+		margin: 15px .52083333% 0 0; /*--5px--*/
+	}
+	footer ul li{
+		margin: 0 .5%;
+	}
 }
+
 @media only screen and (min-width: 601px) and (max-width: 800px) {
+	/*-----General-----*/
 	.wrapper{
 		margin: 0 auto -78px;
 	}
@@ -853,6 +1330,175 @@ footer ul li a:hover{
 	#ppb img{
 		height: 44px;
 		top: 16px;
+	}
+
+		/*-----Nav-----*/
+
+	nav ul li a{
+		font-size: 1.3em;
+	}
+	nav ul li a:hover{
+		font-size: 1.3em;
+	}
+	#navl{
+		width: 49.5%;
+		margin: -21px 0 0 0;
+	}
+	#navr{
+		width: 49.5%;
+		margin: -21px 0 0 0;
+	}
+	#navl li{
+		margin: 0 6.9%;
+	}
+	#navr li{
+		margin: 0 5.1%;
+	}
+
+	/*-----Home-----*/
+
+	#img{
+		height: 150px;
+		background-size: 100% 150px;
+	}
+	#letter{
+		width: 97.9166666667%; /*--940px--*/
+		margin: 3px auto;
+		background-size: 100% 850px;
+	}
+	#pin_left, #pin_right{
+		height: 30px;
+		background-size: 100% 30px;
+	}
+	#letterbod{
+		font-size: 1.5em;
+		margin-bottom: 0;
+	}
+	#letterbod #sign{
+		font-size: 1em;
+		margin: -7px 3% 5px 0;
+		padding-bottom: 20px;
+	}
+	.fb_comments{
+		width: 97.9166666667%; /*--940px--*/
+		background: url(../images/fb_comments-sm.jpg);
+		height: 310px;
+		background-size: 100% 310px;
+		background-repeat: no-repeat;
+	}
+
+	/*-----News-----*/
+
+	#ncp_top, #ncp_body, #ncp_bottom{
+		float: left;
+		width: 97.9166666667%; /*--940px--*/
+		margin: 0 auto;
+	}
+	#reseller_ad{
+		display: none;
+	}
+
+	/*-----Products-----*/
+
+	.products img{
+		width: 40%;
+		height: 120px;
+	}
+	.products h3{
+		float: left;
+		margin: 5px 0 5px 3.125%; /*--10px--*/
+		font-size: 1.7em;
+	}
+	.products .ingredients{
+		margin: 0 0 10px 3.125%; /*--10px--*/
+		font: bold 1.6em "Open Sans Condensed", sans-serif;
+	}
+	#ingredients_modal{
+		width: 97%;
+	}
+	#ingredients_modal p{
+		font-size: 1.5em;
+		margin: 0 0 0 3.125%;
+	}
+	.products .description{
+		float: left;
+		width: 55%;
+		margin: 0 0 0 3.125%;
+		font-size: 1.4em;
+	}
+
+	/*-----Resellers-----*/
+
+	/*-----Reviews-----*/
+
+	#review_form{
+		width: 97.9166666667%; /*--940px--*/
+		margin: 0 0 0 5.208333333%; /*--50px--*/
+	}
+	#review_form div{
+		margin: 15px 0;
+	}
+	.reviews{
+		width: 97.9166666667%; /*--940px--*/
+		clear: both;
+		float: left;
+		margin: 0 1.041666667% 0 0; /*--10px--*/
+	}
+	#review_form input{
+		height: 23px;
+	}
+	#review_form textarea{
+		height: 50px;
+	}
+
+	/*-----Contact-----*/
+
+	#contact_form{
+		width: 97.9166666667%; /*--940px--*/
+		margin: 0 0 0 5.208333333%; /*--50px--*/
+	}
+	#contact_form p{
+		margin: 9px 0 10px 0;
+		font: 1em helvetica, sans-serif;
+	}
+	#contact_form label{
+		font-size: 1em;
+	}
+	#contact_form input{
+		height: 23px;
+	}
+	#contact_form textarea{
+		height: 50px;
+	}
+	#bottle{
+		display: none;
+	}
+
+	/*-----Footer-----*/
+
+	.push{
+		height: 80px;
+	}
+	footer{
+		height: 80px;
+		margin: 80px auto 0;
+		background: url(../images/footer.jpg);
+		background-size: 100% 80px;
+	}
+	footer #copyright{
+		margin: 7px 0 0 .52083333%; /*--5px--*/
+		font-size: 1em;
+	}
+	footer #created_by{
+		margin: 5px 0 0 .52083333%;
+		font-size: 1em;
+	}
+	footer ul{
+		width: 97.9166666667%; /*--940px--*/
+		margin: 15px .52083333% 0 0; /*--5px--*/
+	}
+	footer ul li{
+		margin: 0 .5%;
 	}
 }
 
