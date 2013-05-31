@@ -195,74 +195,6 @@ nav ul li a:hover{
 	background-size: 100% 530px;
 }
 
-
-@media only screen and (min-width: 322px) and (max-width: 480px) {
-	#img{
-		height: 188px;
-		background-size: 100% 188px;
-	}
-	#letter{
-		width: 97.9166666667%; /*--940px--*/
-		margin: 3px auto;
-		background-size: 100% 850px;
-	}
-	#pin_left, #pin_right{
-		height: 19px;
-		background-size: 100% 19px;
-	}
-	.fb_comments{
-		width: 97.9166666667%; /*--940px--*/
-		background: url(../images/fb_comments-sm.jpg);
-		height: 310px;
-		background-size: 100% 310px;
-		background-repeat: no-repeat;
-	}
-}
-@media only screen and (min-width: 481px) and (max-width: 600px) {
-	#img{
-		height: 234px;
-		background-size: 100% 234px;
-	}
-	#letter{
-		width: 97.9166666667%; /*--940px--*/
-		margin: 3px auto;
-		background-size: 100% 850px;
-	}
-	#pin_left, #pin_right{
-		height: 23px;
-		background-size: 100% 23px;
-	}
-	.fb_comments{
-		width: 97.9166666667%; /*--940px--*/
-		background: url(../images/fb_comments-sm.jpg);
-		height: 310px;
-		background-size: 100% 310px;
-		background-repeat: no-repeat;
-	}
-}
-@media only screen and (min-width: 601px) and (max-width: 800px) {
-	#img{
-		height: 313px;
-		background-size: 100% 313px;
-	}
-	#letter{
-		width: 97.9166666667%; /*--940px--*/
-		margin: 3px auto;
-		background-size: 100% 850px;
-	}
-	#pin_left, #pin_right{
-		height: 31px;
-		background-size: 100% 31px;
-	}
-	.fb_comments{
-		width: 97.9166666667%; /*--940px--*/
-		background: url(../images/fb_comments-sm.jpg);
-		height: 310px;
-		background-size: 100% 310px;
-		background-repeat: no-repeat;
-	}
-}
-
 /*-----News-----*/
 
 #ncp_top{
@@ -367,7 +299,7 @@ nav ul li a:hover{
 	color: #beb295;
 	float: right;
 	margin: -28px -78px 0 0;
-}*/
+}   =========Use at clients discretion=======*/
 #ncp_article #pquote1 p{
 	margin: 0 0 0 14.70588235%; /*--35px--*/
 	padding: 0;
@@ -518,13 +450,22 @@ nav ul li a:hover{
 
 /*-----Resellers-----*/
 
+#resellers h2{
+	font-size: 2.5em;
+	margin-left: 1.041666666667%;
+}
+#resellers p strong{
+	font-size: 1.8em;
+	margin-left: 2.60416666667%;
+}
 #resellers_map{
+	width: 40.625%;
+	height: 300px;
 	float: right;
 }
 #resellers .resellers_img{
 	display: block;
 	width: 29.166666667%; /*--280px---*/
-	background: #232323;
 }
 #resellers section img{
 	margin: 25px 5.35714286%; /*--15px--*/
@@ -557,7 +498,7 @@ nav ul li a:hover{
 	color: #d32f27;
 }
 .resellers_info address{
-	font-size: 1.3em;
+	font-size: 1.7em;
 }
 
 /*-----Reviews-----*/
@@ -893,6 +834,60 @@ footer ul li a:hover{
 
 	/*-----Resellers-----*/
 
+	#resellers h2{
+		font-size: 2.3em;
+		margin: 15px 0 10px 1.041666666667%;
+	}
+	#resellers p strong{
+		font-size: 1em;
+	}
+	#resellers_map{
+		float: none;
+		width: 97.9166666667%; /*--940px--*/
+	}
+	#resellers .resellers_img{
+		display: block;
+		width: 97.9166666667%; /*--940px--*/
+		margin: 30px auto 0;
+	}
+	#resellers section img{
+		display: block;
+		float: none;
+		margin: 0 auto;
+		padding: 0;
+	}
+	.resellers_info{
+		width: 97.9166666667%; /*--940px--*/
+		float: none;
+		margin: 0 auto; /*--8px--*/
+		text-align: center;
+	}
+	#Old_World_Food .resellers_info{
+		width: 97.9166666667%; /*--940px--*/
+		float: none;
+		margin: 0 auto; /*---75px--*/
+	}
+	#Steves_Meats .resellers_img{
+		margin-bottom: 5px;
+	}
+	.resellers_info h3{
+		font-size: 1.8em;
+		margin-bottom: 8px;
+	}
+	.resellers_info h3 a{
+		text-decoration: none;
+		color: #526d45;
+		margin-top: 3px;
+	}
+	.resellers_info h3 a:hover{
+		text-decoration: none;
+		color: #d32f27;
+		margin-top: 3px;
+	}
+	.resellers_info address{
+		font-size: 1.7em;
+	}
+
 	/*-----Reviews-----*/
 
 	#review_form{
@@ -988,10 +983,10 @@ footer ul li a:hover{
 		/*-----Nav-----*/
 
 	nav ul li a{
-		font-size: 1.3em;
+		font-size: 1.4em;
 	}
 	nav ul li a:hover{
-		font-size: 1.3em;
+		font-size: 1.4em;
 	}
 	#navl{
 		width: 49.5%;
@@ -1002,10 +997,10 @@ footer ul li a:hover{
 		margin: -23px 0 0 0;
 	}
 	#navl li{
-		margin: 0 6.9%;
+		margin: 0 6.3%;
 	}
 	#navr li{
-		margin: 0 5.1%;
+		margin: 0 4%;
 	}
 
 	/*-----Home-----*/
@@ -1081,6 +1076,60 @@ footer ul li a:hover{
 	}
 
 	/*-----Resellers-----*/
+
+	#resellers h2{
+		font-size: 2.3em;
+		margin: 15px 0 10px 1.041666666667%;
+	}
+	#resellers p strong{
+		font-size: 1em;
+	}
+	#resellers_map{
+		float: none;
+		width: 97.9166666667%; /*--940px--*/
+	}
+	#resellers .resellers_img{
+		display: block;
+		width: 97.9166666667%; /*--940px--*/
+		margin: 30px auto 0;
+	}
+	#resellers section img{
+		display: block;
+		float: none;
+		margin: 0 auto;
+		padding: 0;
+	}
+	.resellers_info{
+		width: 97.9166666667%; /*--940px--*/
+		float: none;
+		margin: 0 auto; /*--8px--*/
+		text-align: center;
+	}
+	#Old_World_Food .resellers_info{
+		width: 97.9166666667%; /*--940px--*/
+		float: none;
+		margin: 0 auto; /*---75px--*/
+	}
+	#Steves_Meats .resellers_img{
+		margin-bottom: 5px;
+	}
+	.resellers_info h3{
+		font-size: 1.8em;
+		margin-bottom: 8px;
+	}
+	.resellers_info h3 a{
+		text-decoration: none;
+		color: #526d45;
+		margin-top: 3px;
+	}
+	.resellers_info h3 a:hover{
+		text-decoration: none;
+		color: #d32f27;
+		margin-top: 3px;
+	}
+	.resellers_info address{
+		font-size: 1.7em;
+	}
 
 	/*-----Reviews-----*/
 
@@ -1175,24 +1224,24 @@ footer ul li a:hover{
 		/*-----Nav-----*/
 
 	nav ul li a{
-		font-size: 1.3em;
+		font-size: 1.8em;
 	}
 	nav ul li a:hover{
-		font-size: 1.3em;
+		font-size: 1.8em;
 	}
 	#navl{
 		width: 49.5%;
-		margin: -21px 0 0 0;
+		margin: -30px 0 0 0;
 	}
 	#navr{
 		width: 49.5%;
-		margin: -21px 0 0 0;
+		margin: -30px 0 0 0;
 	}
 	#navl li{
-		margin: 0 6.9%;
+		margin: 0 7.4%;
 	}
 	#navr li{
-		margin: 0 5.1%;
+		margin: 0 5.7%;
 	}
 
 	/*-----Home-----*/
@@ -1268,6 +1317,60 @@ footer ul li a:hover{
 	}
 
 	/*-----Resellers-----*/
+
+	#resellers h2{
+		font-size: 2.3em;
+		margin: 15px 0 10px 1.041666666667%;
+	}
+	#resellers p strong{
+		font-size: 1em;
+	}
+	#resellers_map{
+		float: none;
+		width: 97.9166666667%; /*--940px--*/
+	}
+	#resellers .resellers_img{
+		display: block;
+		width: 97.9166666667%; /*--940px--*/
+		margin: 30px auto 0;
+	}
+	#resellers section img{
+		display: block;
+		float: none;
+		margin: 0 auto;
+		padding: 0;
+	}
+	.resellers_info{
+		width: 97.9166666667%; /*--940px--*/
+		float: none;
+		margin: 0 auto; /*--8px--*/
+		text-align: center;
+	}
+	#Old_World_Food .resellers_info{
+		width: 97.9166666667%; /*--940px--*/
+		float: none;
+		margin: 0 auto; /*---75px--*/
+	}
+	#Steves_Meats .resellers_img{
+		margin-bottom: 5px;
+	}
+	.resellers_info h3{
+		font-size: 1.8em;
+		margin-bottom: 8px;
+	}
+	.resellers_info h3 a{
+		text-decoration: none;
+		color: #526d45;
+		margin-top: 3px;
+	}
+	.resellers_info h3 a:hover{
+		text-decoration: none;
+		color: #d32f27;
+		margin-top: 3px;
+	}
+	.resellers_info address{
+		font-size: 1.7em;
+	}
 
 	/*-----Reviews-----*/
 
@@ -1359,24 +1462,22 @@ footer ul li a:hover{
 		/*-----Nav-----*/
 
 	nav ul li a{
-		font-size: 1.3em;
+		font-size: 2.2em;
 	}
 	nav ul li a:hover{
-		font-size: 1.3em;
+		font-size: 2.2em;
 	}
 	#navl{
-		width: 49.5%;
-		margin: -21px 0 0 0;
+		margin: -40px 0 0 0;
 	}
 	#navr{
-		width: 49.5%;
-		margin: -21px 0 0 0;
+		margin: -40px 0 0 0;
 	}
 	#navl li{
-		margin: 0 6.9%;
+		margin: 0 5%;
 	}
 	#navr li{
-		margin: 0 5.1%;
+		margin: 0 2.5%;
 	}
 
 	/*-----Home-----*/
@@ -1453,6 +1554,60 @@ footer ul li a:hover{
 
 	/*-----Resellers-----*/
 
+	#resellers h2{
+		font-size: 2.3em;
+		margin: 15px 0 10px 1.041666666667%;
+	}
+	#resellers p strong{
+		font-size: 1em;
+	}
+	#resellers_map{
+		float: none;
+		width: 97.9166666667%; /*--940px--*/
+	}
+	#resellers .resellers_img{
+		display: block;
+		width: 97.9166666667%; /*--940px--*/
+		margin: 30px auto 0;
+	}
+	#resellers section img{
+		display: block;
+		float: none;
+		margin: 0 auto;
+		padding: 0;
+	}
+	.resellers_info{
+		width: 97.9166666667%; /*--940px--*/
+		float: none;
+		margin: 0 auto; /*--8px--*/
+		text-align: center;
+	}
+	#Old_World_Food .resellers_info{
+		width: 97.9166666667%; /*--940px--*/
+		float: none;
+		margin: 0 auto; /*---75px--*/
+	}
+	#Steves_Meats .resellers_img{
+		margin-bottom: 5px;
+	}
+	.resellers_info h3{
+		font-size: 1.8em;
+		margin-bottom: 8px;
+	}
+	.resellers_info h3 a{
+		text-decoration: none;
+		color: #526d45;
+		margin-top: 3px;
+	}
+	.resellers_info h3 a:hover{
+		text-decoration: none;
+		color: #d32f27;
+		margin-top: 3px;
+	}
+	.resellers_info address{
+		font-size: 1.7em;
+	}
+
 	/*-----Reviews-----*/
 
 	#review_form{
@@ -1525,4 +1680,111 @@ footer ul li a:hover{
 		margin: 0 .5%;
 	}
 }
+@media only screen and (min-width: 801px) and (max-width: 850px) {
 
+	/*-----Nav-----*/
+	nav ul li a{
+		font-size: 2.1em;
+	}
+	nav ul li a:hover{
+		font-size: 2.1em;
+	}
+	/*-----News-----*/
+
+	#ncp_top, #ncp_body, #ncp_bottom{
+		float: left;
+		width: 97.9166666667%; /*--940px--*/
+		margin: 0 auto;
+	}
+	#reseller_ad{
+		display: none;
+	}
+
+	/*-----Resellers-----*/
+
+	#resellers h2{
+		font-size: 2.3em;
+		margin: 15px 0 10px 1.041666666667%;
+	}
+	#resellers p strong{
+		font-size: 1em;
+	}
+	#resellers_map{
+		float: none;
+		width: 97.9166666667%; /*--940px--*/
+	}
+	#resellers .resellers_img{
+		display: block;
+		width: 97.9166666667%; /*--940px--*/
+		margin: 30px auto 0;
+	}
+	#resellers section img{
+		display: block;
+		float: none;
+		margin: 0 auto;
+		padding: 0;
+	}
+	.resellers_info{
+		width: 97.9166666667%; /*--940px--*/
+		float: none;
+		margin: 0 auto; /*--8px--*/
+		text-align: center;
+	}
+	#Old_World_Food .resellers_info{
+		width: 97.9166666667%; /*--940px--*/
+		float: none;
+		margin: 0 auto; /*---75px--*/
+	}
+	#Steves_Meats .resellers_img{
+		margin-bottom: 5px;
+	}
+	.resellers_info h3{
+		font-size: 1.8em;
+		margin-bottom: 8px;
+	}
+	.resellers_info h3 a{
+		text-decoration: none;
+		color: #526d45;
+		margin-top: 3px;
+	}
+	.resellers_info h3 a:hover{
+		text-decoration: none;
+		color: #d32f27;
+		margin-top: 3px;
+	}
+	.resellers_info address{
+		font-size: 1.7em;
+	}
+
+	/*-----Contact-----*/
+
+	#contact_form{
+		width: 97.9166666667%; /*--940px--*/
+		margin: 0 0 0 5.208333333%; /*--50px--*/
+	}
+	#contact_form p{
+		margin: 9px 0 10px 0;
+		font: 1em helvetica, sans-serif;
+	}
+	#contact_form label{
+		font-size: 1em;
+	}
+	#contact_form input{
+		height: 23px;
+	}
+	#contact_form textarea{
+		height: 50px;
+	}
+	#bottle{
+		display: none;
+	}
+
+}
+@media only screen and (min-width: 851px) and (max-width: 1035px) {
+	nav ul li a{
+		font-size: 2.5em;
+	}
+	nav ul li a:hover{
+		font-size: 2.5em;
+	}
+}
